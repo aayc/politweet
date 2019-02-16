@@ -1,2 +1,4 @@
 env/
 keys/
+analysis/doc_models/
+analysis/__pycache__
