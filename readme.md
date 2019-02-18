@@ -12,7 +12,8 @@ mv [YOUR KEYS.JSON PATH] keys/keys.json
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
-python3 data/get-tweets.py
+cd data
+python3 get-tweets.py
 ```
 
 ## Doc2Vec Wikipedia Model
