@@ -54,11 +54,11 @@ name = '@AOC'
 items = get_tweets(name, 250)
 
 # Print tweets to file, (for debugging)
-with open("tweets.txt", 'w') as f:
+with open("tmp/tweets.txt", 'w') as f:
     for t in items:
         f.write(t['text'])
         f.write('\n\n')
 
 # Print tweets to file, (for debugging)
-with open("AOC.json", 'w') as f:
+with open("tmp/AOC.json", 'w') as f:
     f.write(json.dumps(items))
