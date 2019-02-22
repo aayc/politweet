@@ -1,0 +1,4835 @@
+[
+  {
+    "Kirsten Gillibrand": {
+      "ideology": 0.0,
+      "name": "Kirsten Gillibrand",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@gillibrandny"
+    }
+  },
+  {
+    "Bernie Sanders": {
+      "ideology": 0.008702126947094217,
+      "name": "Bernie Sanders",
+      "party": "I",
+      "state": "VT",
+      "twitter_handler": "@SenSanders"
+    }
+  },
+  {
+    "Jeff Merkley": {
+      "ideology": 0.03295751608681747,
+      "name": "Jeff Merkley",
+      "party": "D",
+      "state": "OR",
+      "twitter_handler": "@SenJeffMerkley"
+    }
+  },
+  {
+    "Kamala Harris": {
+      "ideology": 0.05085780172997755,
+      "name": "Kamala Harris",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@SenKamalaHarris"
+    }
+  },
+  {
+    "Ed Markey": {
+      "ideology": 0.09073460995616636,
+      "name": "Ed Markey",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": "@SenMarkey"
+    }
+  },
+  {
+    "Richard Blumenthal": {
+      "ideology": 0.1022090112980621,
+      "name": "Richard Blumenthal",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": "@SenBlumenthal"
+    }
+  },
+  {
+    "Sherrod Brown": {
+      "ideology": 0.11951968188325544,
+      "name": "Sherrod Brown",
+      "party": "D",
+      "state": "OH",
+      "twitter_handler": "@SenSherrodBrown"
+    }
+  },
+  {
+    "Jack Reed": {
+      "ideology": 0.12267233326568652,
+      "name": "Jack Reed",
+      "party": "D",
+      "state": "RI",
+      "twitter_handler": "@SenJackReed"
+    }
+  },
+  {
+    "Patty Murray": {
+      "ideology": 0.12754257213755685,
+      "name": "Patty Murray",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@PattyMurray"
+    }
+  },
+  {
+    "Mazie Hirono": {
+      "ideology": 0.12992329182086187,
+      "name": "Mazie Hirono",
+      "party": "D",
+      "state": "HI",
+      "twitter_handler": "@maziehirono"
+    }
+  },
+  {
+    "Richard Durbin": {
+      "ideology": 0.1358445661114254,
+      "name": "Richard Durbin",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Chris Van Hollen": {
+      "ideology": 0.14533408925541205,
+      "name": "Chris Van Hollen",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": "@ChrisVanHollen"
+    }
+  },
+  {
+    "Elizabeth Warren": {
+      "ideology": 0.15393746268225655,
+      "name": "Elizabeth Warren",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": "@SenWarren"
+    }
+  },
+  {
+    "Tina Smith": {
+      "ideology": 0.15913797817092476,
+      "name": "Tina Smith",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": "@SenTinaSmith"
+    }
+  },
+  {
+    "Dianne Feinstein": {
+      "ideology": 0.16155261267002075,
+      "name": "Dianne Feinstein",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@SenFeinstein"
+    }
+  },
+  {
+    "Ron Wyden": {
+      "ideology": 0.16526645037083393,
+      "name": "Ron Wyden",
+      "party": "D",
+      "state": "OR",
+      "twitter_handler": "@RonWyden"
+    }
+  },
+  {
+    "Cory Booker": {
+      "ideology": 0.16874976399679734,
+      "name": "Cory Booker",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@SenBooker"
+    }
+  },
+  {
+    "Sheldon Whitehouse": {
+      "ideology": 0.18029928127453945,
+      "name": "Sheldon Whitehouse",
+      "party": "D",
+      "state": "RI",
+      "twitter_handler": "@SenWhitehouse"
+    }
+  },
+  {
+    "Christopher Murphy": {
+      "ideology": 0.19018801969606847,
+      "name": "Christopher Murphy",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tammy Duckworth": {
+      "ideology": 0.1940172195938445,
+      "name": "Tammy Duckworth",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@SenDuckworth"
+    }
+  },
+  {
+    "Maggie Hassan": {
+      "ideology": 0.19494565166876232,
+      "name": "Maggie Hassan",
+      "party": "D",
+      "state": "NH",
+      "twitter_handler": "@SenatorHassan"
+    }
+  },
+  {
+    "Catherine Cortez Masto": {
+      "ideology": 0.20522775051076367,
+      "name": "Catherine Cortez Masto",
+      "party": "D",
+      "state": "NV",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Patrick Leahy": {
+      "ideology": 0.21960711365844904,
+      "name": "Patrick Leahy",
+      "party": "D",
+      "state": "VT",
+      "twitter_handler": "@SenatorLeahy"
+    }
+  },
+  {
+    "Bob Menendez": {
+      "ideology": 0.23466051022537585,
+      "name": "Bob Menendez",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@SenatorMenendez"
+    }
+  },
+  {
+    "Benjamin Cardin": {
+      "ideology": 0.23492253773670704,
+      "name": "Benjamin Cardin",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Brian Schatz": {
+      "ideology": 0.23802963131120744,
+      "name": "Brian Schatz",
+      "party": "D",
+      "state": "HI",
+      "twitter_handler": "@brianschatz"
+    }
+  },
+  {
+    "Tim Kaine": {
+      "ideology": 0.2428308331796491,
+      "name": "Tim Kaine",
+      "party": "D",
+      "state": "VA",
+      "twitter_handler": "@timkaine"
+    }
+  },
+  {
+    "Thomas Carper": {
+      "ideology": 0.25000758580804056,
+      "name": "Thomas Carper",
+      "party": "D",
+      "state": "DE",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tammy Baldwin": {
+      "ideology": 0.25914961413490945,
+      "name": "Tammy Baldwin",
+      "party": "D",
+      "state": "WI",
+      "twitter_handler": "@SenatorBaldwin"
+    }
+  },
+  {
+    "Chuck Schumer": {
+      "ideology": 0.26937263467710354,
+      "name": "Chuck Schumer",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@SenSchumer"
+    }
+  },
+  {
+    "Debbie Stabenow": {
+      "ideology": 0.28189965261431704,
+      "name": "Debbie Stabenow",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": "@SenStabenow"
+    }
+  },
+  {
+    "Maria Cantwell": {
+      "ideology": 0.2904001003545551,
+      "name": "Maria Cantwell",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@SenatorCantwell"
+    }
+  },
+  {
+    "Tom Udall": {
+      "ideology": 0.3059646815033867,
+      "name": "Tom Udall",
+      "party": "D",
+      "state": "NM",
+      "twitter_handler": "@SenatorTomUdall"
+    }
+  },
+  {
+    "Amy Klobuchar": {
+      "ideology": 0.3150941534751248,
+      "name": "Amy Klobuchar",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": "@SenAmyKlobuchar"
+    }
+  },
+  {
+    "Bob Casey": {
+      "ideology": 0.3154604653537477,
+      "name": "Bob Casey",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": "@SenBobCasey"
+    }
+  },
+  {
+    "Jeanne Shaheen": {
+      "ideology": 0.3179214550681262,
+      "name": "Jeanne Shaheen",
+      "party": "D",
+      "state": "NH",
+      "twitter_handler": "@SenatorShaheen"
+    }
+  },
+  {
+    "Martin Heinrich": {
+      "ideology": 0.3227295612569395,
+      "name": "Martin Heinrich",
+      "party": "D",
+      "state": "NM",
+      "twitter_handler": "@MartinHeinrich"
+    }
+  },
+  {
+    "Michael Bennet": {
+      "ideology": 0.4116585255490803,
+      "name": "Michael Bennet",
+      "party": "D",
+      "state": "CO",
+      "twitter_handler": "@SenatorBennet"
+    }
+  },
+  {
+    "Chris Coons": {
+      "ideology": 0.42418475658542654,
+      "name": "Chris Coons",
+      "party": "D",
+      "state": "DE",
+      "twitter_handler": "@ChrisCoons"
+    }
+  },
+  {
+    "Gary Peters": {
+      "ideology": 0.4387098804841697,
+      "name": "Gary Peters",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": "@SenGaryPeters"
+    }
+  },
+  {
+    "Mark Warner": {
+      "ideology": 0.46364948028422703,
+      "name": "Mark Warner",
+      "party": "D",
+      "state": "VA",
+      "twitter_handler": "@MarkWarner"
+    }
+  },
+  {
+    "Bill Nelson": {
+      "ideology": 0.4798674083457688,
+      "name": "Bill Nelson",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Doug Jones": {
+      "ideology": 0.5124009681936544,
+      "name": "Doug Jones",
+      "party": "D",
+      "state": "AL",
+      "twitter_handler": "@SenDougJones"
+    }
+  },
+  {
+    "Claire McCaskill": {
+      "ideology": 0.5198135067038934,
+      "name": "Claire McCaskill",
+      "party": "D",
+      "state": "MO",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Angus King": {
+      "ideology": 0.5309293305855259,
+      "name": "Angus King",
+      "party": "I",
+      "state": "ME",
+      "twitter_handler": "@SenAngusKing"
+    }
+  },
+  {
+    "Susan Collins": {
+      "ideology": 0.5363965727712479,
+      "name": "Susan Collins",
+      "party": "R",
+      "state": "ME",
+      "twitter_handler": "@SenatorCollins"
+    }
+  },
+  {
+    "Jon Tester": {
+      "ideology": 0.5627219440968714,
+      "name": "Jon Tester",
+      "party": "D",
+      "state": "MT",
+      "twitter_handler": "@SenatorTester"
+    }
+  },
+  {
+    "Lisa Murkowski": {
+      "ideology": 0.5840849109013482,
+      "name": "Lisa Murkowski",
+      "party": "R",
+      "state": "AK",
+      "twitter_handler": "@lisamurkowski"
+    }
+  },
+  {
+    "Heidi Heitkamp": {
+      "ideology": 0.6061241252782935,
+      "name": "Heidi Heitkamp",
+      "party": "D",
+      "state": "ND",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Rob Portman": {
+      "ideology": 0.6546625932396029,
+      "name": "Rob Portman",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@senrobportman"
+    }
+  },
+  {
+    "Richard Shelby": {
+      "ideology": 0.675828831327996,
+      "name": "Richard Shelby",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@SenShelby"
+    }
+  },
+  {
+    "Joe Donnelly": {
+      "ideology": 0.6824402369492032,
+      "name": "Joe Donnelly",
+      "party": "D",
+      "state": "IN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Bob Corker": {
+      "ideology": 0.6953398400227815,
+      "name": "Bob Corker",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@SenBobCorker"
+    }
+  },
+  {
+    "Joe Manchin": {
+      "ideology": 0.7080498853677221,
+      "name": "Joe Manchin",
+      "party": "D",
+      "state": "WV",
+      "twitter_handler": "@Sen_JoeManchin"
+    }
+  },
+  {
+    "Lamar Alexander": {
+      "ideology": 0.716237337783082,
+      "name": "Lamar Alexander",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@SenAlexander"
+    }
+  },
+  {
+    "Rand Paul": {
+      "ideology": 0.7258636129416577,
+      "name": "Rand Paul",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": "@RandPaul"
+    }
+  },
+  {
+    "Richard Burr": {
+      "ideology": 0.7321459126315386,
+      "name": "Richard Burr",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@SenatorBurr"
+    }
+  },
+  {
+    "Lindsey Graham": {
+      "ideology": 0.7354904702728335,
+      "name": "Lindsey Graham",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": "@GrahamBlog"
+    }
+  },
+  {
+    "Pat Toomey": {
+      "ideology": 0.7414179659117345,
+      "name": "Pat Toomey",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": "@SenToomey"
+    }
+  },
+  {
+    "Cindy Hyde-Smith": {
+      "ideology": 0.7422354897316329,
+      "name": "Cindy Hyde-Smith",
+      "party": "R",
+      "state": "MS",
+      "twitter_handler": "@SenHydeSmith"
+    }
+  },
+  {
+    "Shelley Capito": {
+      "ideology": 0.7576891768003867,
+      "name": "Shelley Capito",
+      "party": "R",
+      "state": "WV",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Dan Sullivan": {
+      "ideology": 0.7639358579781476,
+      "name": "Dan Sullivan",
+      "party": "R",
+      "state": "AK",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Mitch McConnell": {
+      "ideology": 0.7653849728633025,
+      "name": "Mitch McConnell",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Cory Gardner": {
+      "ideology": 0.7768840267553742,
+      "name": "Cory Gardner",
+      "party": "R",
+      "state": "CO",
+      "twitter_handler": "@SenCoryGardner"
+    }
+  },
+  {
+    "Benjamin Sasse": {
+      "ideology": 0.7776344569671255,
+      "name": "Benjamin Sasse",
+      "party": "R",
+      "state": "NE",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Todd Young": {
+      "ideology": 0.7807691104289503,
+      "name": "Todd Young",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": "@SenToddYoung"
+    }
+  },
+  {
+    "Dean Heller": {
+      "ideology": 0.7990862292032658,
+      "name": "Dean Heller",
+      "party": "R",
+      "state": "NV",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jeff Flake": {
+      "ideology": 0.8187104401658056,
+      "name": "Jeff Flake",
+      "party": "R",
+      "state": "AZ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Chuck Grassley": {
+      "ideology": 0.8205760343332624,
+      "name": "Chuck Grassley",
+      "party": "R",
+      "state": "IA",
+      "twitter_handler": "@ChuckGrassley"
+    }
+  },
+  {
+    "Johnny Isakson": {
+      "ideology": 0.8310137122079804,
+      "name": "Johnny Isakson",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@SenatorIsakson"
+    }
+  },
+  {
+    "Bill Cassidy": {
+      "ideology": 0.8334050397121328,
+      "name": "Bill Cassidy",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@SenBillCassidy"
+    }
+  },
+  {
+    "John Hoeven": {
+      "ideology": 0.8403556102836912,
+      "name": "John Hoeven",
+      "party": "R",
+      "state": "ND",
+      "twitter_handler": "@SenJohnHoeven"
+    }
+  },
+  {
+    "Jerry Moran": {
+      "ideology": 0.8406338905764807,
+      "name": "Jerry Moran",
+      "party": "R",
+      "state": "KS",
+      "twitter_handler": "@JerryMoran"
+    }
+  },
+  {
+    "Ron Johnson": {
+      "ideology": 0.8434803336255454,
+      "name": "Ron Johnson",
+      "party": "R",
+      "state": "WI",
+      "twitter_handler": "@SenRonJohnson"
+    }
+  },
+  {
+    "Marco Rubio": {
+      "ideology": 0.847652118881885,
+      "name": "Marco Rubio",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@marcorubio"
+    }
+  },
+  {
+    "Mike Lee": {
+      "ideology": 0.8507204555584914,
+      "name": "Mike Lee",
+      "party": "R",
+      "state": "UT",
+      "twitter_handler": "@SenMikeLee"
+    }
+  },
+  {
+    "Tim Scott": {
+      "ideology": 0.8641820753201587,
+      "name": "Tim Scott",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": "@SenatorTimScott"
+    }
+  },
+  {
+    "Michael Crapo": {
+      "ideology": 0.8655364015657664,
+      "name": "Michael Crapo",
+      "party": "R",
+      "state": "ID",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Kennedy": {
+      "ideology": 0.8683556402463319,
+      "name": "John Kennedy",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@SenJohnKennedy"
+    }
+  },
+  {
+    "John Thune": {
+      "ideology": 0.8711289461262159,
+      "name": "John Thune",
+      "party": "R",
+      "state": "SD",
+      "twitter_handler": "@SenJohnThune"
+    }
+  },
+  {
+    "Thom Tillis": {
+      "ideology": 0.8762724448655931,
+      "name": "Thom Tillis",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@SenThomTillis"
+    }
+  },
+  {
+    "Orrin Hatch": {
+      "ideology": 0.8853832673403488,
+      "name": "Orrin Hatch",
+      "party": "R",
+      "state": "UT",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Deb Fischer": {
+      "ideology": 0.8942829609668851,
+      "name": "Deb Fischer",
+      "party": "R",
+      "state": "NE",
+      "twitter_handler": "@SenatorFischer"
+    }
+  },
+  {
+    "Roger Wicker": {
+      "ideology": 0.8967812019941833,
+      "name": "Roger Wicker",
+      "party": "R",
+      "state": "MS",
+      "twitter_handler": "@SenatorWicker"
+    }
+  },
+  {
+    "James Risch": {
+      "ideology": 0.9126523163147816,
+      "name": "James Risch",
+      "party": "R",
+      "state": "ID",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Roy Blunt": {
+      "ideology": 0.9174879938360248,
+      "name": "Roy Blunt",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": "@RoyBlunt"
+    }
+  },
+  {
+    "Steve Daines": {
+      "ideology": 0.9195216823248556,
+      "name": "Steve Daines",
+      "party": "R",
+      "state": "MT",
+      "twitter_handler": "@SteveDaines"
+    }
+  },
+  {
+    "John Barrasso": {
+      "ideology": 0.9239033951603534,
+      "name": "John Barrasso",
+      "party": "R",
+      "state": "WY",
+      "twitter_handler": "@SenJohnBarrasso"
+    }
+  },
+  {
+    "John Boozman": {
+      "ideology": 0.9312776354216258,
+      "name": "John Boozman",
+      "party": "R",
+      "state": "AR",
+      "twitter_handler": "@JohnBoozman"
+    }
+  },
+  {
+    "Joni Ernst": {
+      "ideology": 0.9332695727307144,
+      "name": "Joni Ernst",
+      "party": "R",
+      "state": "IA",
+      "twitter_handler": "@SenJoniErnst"
+    }
+  },
+  {
+    "Ted Cruz": {
+      "ideology": 0.9390053118686684,
+      "name": "Ted Cruz",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@SenTedCruz"
+    }
+  },
+  {
+    "James Lankford": {
+      "ideology": 0.9506234389888112,
+      "name": "James Lankford",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": "@SenatorLankford"
+    }
+  },
+  {
+    "Pat Roberts": {
+      "ideology": 0.9508044649731175,
+      "name": "Pat Roberts",
+      "party": "R",
+      "state": "KS",
+      "twitter_handler": "@SenPatRoberts"
+    }
+  },
+  {
+    "David Perdue": {
+      "ideology": 0.9534992499898248,
+      "name": "David Perdue",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@sendavidperdue"
+    }
+  },
+  {
+    "John Cornyn": {
+      "ideology": 0.9624988256180128,
+      "name": "John Cornyn",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@JohnCornyn"
+    }
+  },
+  {
+    "Mike Rounds": {
+      "ideology": 0.9698474898734152,
+      "name": "Mike Rounds",
+      "party": "R",
+      "state": "SD",
+      "twitter_handler": "@SenatorRounds"
+    }
+  },
+  {
+    "Tom Cotton": {
+      "ideology": 0.9727381492026904,
+      "name": "Tom Cotton",
+      "party": "R",
+      "state": "AR",
+      "twitter_handler": "@SenTomCotton"
+    }
+  },
+  {
+    "Michael Enzi": {
+      "ideology": 0.9753306842241066,
+      "name": "Michael Enzi",
+      "party": "R",
+      "state": "WY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jim Inhofe": {
+      "ideology": 1.0,
+      "name": "Jim Inhofe",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": "@JimInhofe"
+    }
+  },
+  {
+    "Eleanor Norton": {
+      "ideology": 0.0,
+      "name": "Eleanor Norton",
+      "party": "D",
+      "state": "DC",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Barbara Lee": {
+      "ideology": 0.009931495300420765,
+      "name": "Barbara Lee",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepBarbaraLee"
+    }
+  },
+  {
+    "Ra\u00fal Grijalva": {
+      "ideology": 0.05810776859081656,
+      "name": "Ra\u00fal Grijalva",
+      "party": "D",
+      "state": "AZ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jan Schakowsky": {
+      "ideology": 0.1035740013346976,
+      "name": "Jan Schakowsky",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@janschakowsky"
+    }
+  },
+  {
+    "Pramila Jayapal": {
+      "ideology": 0.10956787563512138,
+      "name": "Pramila Jayapal",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@RepJayapal"
+    }
+  },
+  {
+    "Gwen Moore": {
+      "ideology": 0.11233725148151896,
+      "name": "Gwen Moore",
+      "party": "D",
+      "state": "WI",
+      "twitter_handler": "@RepGwenMoore"
+    }
+  },
+  {
+    "Yvette Clarke": {
+      "ideology": 0.11914332219262395,
+      "name": "Yvette Clarke",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepYvetteClarke"
+    }
+  },
+  {
+    "Bonnie Watson Coleman": {
+      "ideology": 0.12421328093617555,
+      "name": "Bonnie Watson Coleman",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@RepBonnie"
+    }
+  },
+  {
+    "Jamie Raskin": {
+      "ideology": 0.12670862169661146,
+      "name": "Jamie Raskin",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": "@RepRaskin"
+    }
+  },
+  {
+    "Jim Mc Govern": {
+      "ideology": 0.13643475970984376,
+      "name": "Jim Mc Govern",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jerrold Nadler": {
+      "ideology": 0.14917132007108555,
+      "name": "Jerrold Nadler",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Sheila Jackson Lee": {
+      "ideology": 0.15054006130954503,
+      "name": "Sheila Jackson Lee",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@JacksonLeeTX18"
+    }
+  },
+  {
+    "Jos\u00e9 Serrano": {
+      "ideology": 0.15075508735971313,
+      "name": "Jos\u00e9 Serrano",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepJoseSerrano"
+    }
+  },
+  {
+    "Keith Ellison": {
+      "ideology": 0.15173915354062814,
+      "name": "Keith Ellison",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Luis Guti\u00e9rrez": {
+      "ideology": 0.15186236645269807,
+      "name": "Luis Guti\u00e9rrez",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Nanette Barrag\u00e1n": {
+      "ideology": 0.15951019206005046,
+      "name": "Nanette Barrag\u00e1n",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepBarragan"
+    }
+  },
+  {
+    "Mark DeSaulnier": {
+      "ideology": 0.16449954366995242,
+      "name": "Mark DeSaulnier",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepDeSaulnier"
+    }
+  },
+  {
+    "Alcee Hastings": {
+      "ideology": 0.16918514140795174,
+      "name": "Alcee Hastings",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@RepHastingsFL"
+    }
+  },
+  {
+    "Dwight Evans": {
+      "ideology": 0.17346178482698776,
+      "name": "Dwight Evans",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": "@RepDwightEvans"
+    }
+  },
+  {
+    "Mark Takano": {
+      "ideology": 0.17633143241577295,
+      "name": "Mark Takano",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepMarkTakano"
+    }
+  },
+  {
+    "Nydia Vel\u00e1zquez": {
+      "ideology": 0.17988462213251746,
+      "name": "Nydia Vel\u00e1zquez",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jared Huffman": {
+      "ideology": 0.18034585201504005,
+      "name": "Jared Huffman",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@JaredHuffman"
+    }
+  },
+  {
+    "Adriano Espaillat": {
+      "ideology": 0.1807300115487044,
+      "name": "Adriano Espaillat",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepEspaillat"
+    }
+  },
+  {
+    "Betty McCollum": {
+      "ideology": 0.1824779859199576,
+      "name": "Betty McCollum",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": "@BettyMcCollum04"
+    }
+  },
+  {
+    "Ro Khanna": {
+      "ideology": 0.18575412534233532,
+      "name": "Ro Khanna",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RoKhanna"
+    }
+  },
+  {
+    "Mark Pocan": {
+      "ideology": 0.1859815732462897,
+      "name": "Mark Pocan",
+      "party": "D",
+      "state": "WI",
+      "twitter_handler": "@repmarkpocan"
+    }
+  },
+  {
+    "Frederica Wilson": {
+      "ideology": 0.1862916842272531,
+      "name": "Frederica Wilson",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@RepWilson"
+    }
+  },
+  {
+    "Andr\u00e9 Carson": {
+      "ideology": 0.19265082938889647,
+      "name": "Andr\u00e9 Carson",
+      "party": "D",
+      "state": "IN",
+      "twitter_handler": "@RepAndreCarson"
+    }
+  },
+  {
+    "Adam Smith": {
+      "ideology": 0.19358614901693708,
+      "name": "Adam Smith",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@RepAdamSmith"
+    }
+  },
+  {
+    "Darren Soto": {
+      "ideology": 0.195941650388095,
+      "name": "Darren Soto",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Steve Cohen": {
+      "ideology": 0.19816350452534334,
+      "name": "Steve Cohen",
+      "party": "D",
+      "state": "TN",
+      "twitter_handler": "@RepCohen"
+    }
+  },
+  {
+    "Bobby Scott": {
+      "ideology": 0.2022630763203037,
+      "name": "Bobby Scott",
+      "party": "D",
+      "state": "VA",
+      "twitter_handler": "@BobbyScott"
+    }
+  },
+  {
+    "Judy Chu": {
+      "ideology": 0.2030897378375424,
+      "name": "Judy Chu",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepJudyChu"
+    }
+  },
+  {
+    "Elijah Cummings": {
+      "ideology": 0.20330548208553145,
+      "name": "Elijah Cummings",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": "@RepCummings"
+    }
+  },
+  {
+    "John Lewis": {
+      "ideology": 0.20380140297328966,
+      "name": "John Lewis",
+      "party": "D",
+      "state": "GA",
+      "twitter_handler": "@repjohnlewis"
+    }
+  },
+  {
+    "Katherine Clark": {
+      "ideology": 0.2072360562329104,
+      "name": "Katherine Clark",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": "@RepKClark"
+    }
+  },
+  {
+    "Donald Payne": {
+      "ideology": 0.2104823603186956,
+      "name": "Donald Payne",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Rosa DeLauro": {
+      "ideology": 0.21183698323624187,
+      "name": "Rosa DeLauro",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": "@rosadelauro"
+    }
+  },
+  {
+    "Alan Lowenthal": {
+      "ideology": 0.2140549327121419,
+      "name": "Alan Lowenthal",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepLowenthal"
+    }
+  },
+  {
+    "Maxine Waters": {
+      "ideology": 0.21539549379922368,
+      "name": "Maxine Waters",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepMaxineWaters"
+    }
+  },
+  {
+    "Jerry McNerney": {
+      "ideology": 0.21606239178113615,
+      "name": "Jerry McNerney",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepMcNerney"
+    }
+  },
+  {
+    "Hakeem Jeffries": {
+      "ideology": 0.2162711229570521,
+      "name": "Hakeem Jeffries",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepJeffries"
+    }
+  },
+  {
+    "Frank Pallone": {
+      "ideology": 0.21901063294840828,
+      "name": "Frank Pallone",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@FrankPallone"
+    }
+  },
+  {
+    "Karen Bass": {
+      "ideology": 0.2197691390536541,
+      "name": "Karen Bass",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Carolyn Maloney": {
+      "ideology": 0.22055356677571966,
+      "name": "Carolyn Maloney",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepMaloney"
+    }
+  },
+  {
+    "Grace Napolitano": {
+      "ideology": 0.2219209978256711,
+      "name": "Grace Napolitano",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Lucille Roybal-Allard": {
+      "ideology": 0.22313038937287208,
+      "name": "Lucille Roybal-Allard",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepRoybalAllard"
+    }
+  },
+  {
+    "David Cicilline": {
+      "ideology": 0.22475229432655372,
+      "name": "David Cicilline",
+      "party": "D",
+      "state": "RI",
+      "twitter_handler": "@davidcicilline"
+    }
+  },
+  {
+    "Earl Blumenauer": {
+      "ideology": 0.2249394671207375,
+      "name": "Earl Blumenauer",
+      "party": "D",
+      "state": "OR",
+      "twitter_handler": "@repblumenauer"
+    }
+  },
+  {
+    "Debbie Wasserman Schultz": {
+      "ideology": 0.2267076019109092,
+      "name": "Debbie Wasserman Schultz",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@DWStweets"
+    }
+  },
+  {
+    "Brenda Lawrence": {
+      "ideology": 0.23786704708026266,
+      "name": "Brenda Lawrence",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": "@RepLawrence"
+    }
+  },
+  {
+    "Suzanne Bonamici": {
+      "ideology": 0.2395416848243043,
+      "name": "Suzanne Bonamici",
+      "party": "D",
+      "state": "OR",
+      "twitter_handler": "@RepBonamici"
+    }
+  },
+  {
+    "Jackie Speier": {
+      "ideology": 0.2411022946235921,
+      "name": "Jackie Speier",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepSpeier"
+    }
+  },
+  {
+    "Donald Beyer": {
+      "ideology": 0.2425681289761417,
+      "name": "Donald Beyer",
+      "party": "D",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Zoe Lofgren": {
+      "ideology": 0.2427997745496457,
+      "name": "Zoe Lofgren",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepZoeLofgren"
+    }
+  },
+  {
+    "Michael Capuano": {
+      "ideology": 0.24430936933532524,
+      "name": "Michael Capuano",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ted Lieu": {
+      "ideology": 0.2457194576121555,
+      "name": "Ted Lieu",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepTedLieu"
+    }
+  },
+  {
+    "Al Green": {
+      "ideology": 0.24574683125484856,
+      "name": "Al Green",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@RepAlGreen"
+    }
+  },
+  {
+    "Gregory Meeks": {
+      "ideology": 0.2465918921658699,
+      "name": "Gregory Meeks",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepGregoryMeeks"
+    }
+  },
+  {
+    "Carol Shea-Porter": {
+      "ideology": 0.2528853891200173,
+      "name": "Carol Shea-Porter",
+      "party": "D",
+      "state": "NH",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Paul Tonko": {
+      "ideology": 0.25396228612676564,
+      "name": "Paul Tonko",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepPaulTonko"
+    }
+  },
+  {
+    "Mike Quigley": {
+      "ideology": 0.25821535181695643,
+      "name": "Mike Quigley",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RepMikeQuigley"
+    }
+  },
+  {
+    "Hank Johnson": {
+      "ideology": 0.2590318822790589,
+      "name": "Hank Johnson",
+      "party": "D",
+      "state": "GA",
+      "twitter_handler": "@RepHankJohnson"
+    }
+  },
+  {
+    "Danny Davis": {
+      "ideology": 0.2613206622165658,
+      "name": "Danny Davis",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RepDannyDavis"
+    }
+  },
+  {
+    "Ruben Gallego": {
+      "ideology": 0.2642941029780461,
+      "name": "Ruben Gallego",
+      "party": "D",
+      "state": "AZ",
+      "twitter_handler": "@RepRubenGallego"
+    }
+  },
+  {
+    "Debbie Dingell": {
+      "ideology": 0.26571639578244777,
+      "name": "Debbie Dingell",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": "@RepDebDingell"
+    }
+  },
+  {
+    "Anthony Brown": {
+      "ideology": 0.2733760711302413,
+      "name": "Anthony Brown",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Donald McEachin": {
+      "ideology": 0.2742924934174378,
+      "name": "Donald McEachin",
+      "party": "D",
+      "state": "VA",
+      "twitter_handler": "@RepMcEachin"
+    }
+  },
+  {
+    "Niki Tsongas": {
+      "ideology": 0.2742944532968714,
+      "name": "Niki Tsongas",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Marcy Kaptur": {
+      "ideology": 0.27443663701690924,
+      "name": "Marcy Kaptur",
+      "party": "D",
+      "state": "OH",
+      "twitter_handler": "@RepMarcyKaptur"
+    }
+  },
+  {
+    "Alma Adams": {
+      "ideology": 0.2746009518675943,
+      "name": "Alma Adams",
+      "party": "D",
+      "state": "NC",
+      "twitter_handler": "@RepAdams"
+    }
+  },
+  {
+    "Kathy Castor": {
+      "ideology": 0.27660391751065616,
+      "name": "Kathy Castor",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jim Langevin": {
+      "ideology": 0.276983355314815,
+      "name": "Jim Langevin",
+      "party": "D",
+      "state": "RI",
+      "twitter_handler": "@JimLangevin"
+    }
+  },
+  {
+    "Chellie Pingree": {
+      "ideology": 0.2770819730045363,
+      "name": "Chellie Pingree",
+      "party": "D",
+      "state": "ME",
+      "twitter_handler": "@chelliepingree"
+    }
+  },
+  {
+    "Stephen Lynch": {
+      "ideology": 0.27708648179727785,
+      "name": "Stephen Lynch",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": "@RepStephenLynch"
+    }
+  },
+  {
+    "Juan Vargas": {
+      "ideology": 0.2791713035043429,
+      "name": "Juan Vargas",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepJuanVargas"
+    }
+  },
+  {
+    "Colleen Hanabusa": {
+      "ideology": 0.279513057439388,
+      "name": "Colleen Hanabusa",
+      "party": "D",
+      "state": "HI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Robin Kelly": {
+      "ideology": 0.2803477780848422,
+      "name": "Robin Kelly",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RobinLynneKelly"
+    }
+  },
+  {
+    "Jimmy Gomez": {
+      "ideology": 0.2822561756625715,
+      "name": "Jimmy Gomez",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepJimmyGomez"
+    }
+  },
+  {
+    "Marcia Fudge": {
+      "ideology": 0.2841833580169205,
+      "name": "Marcia Fudge",
+      "party": "D",
+      "state": "OH",
+      "twitter_handler": "@RepMarciaFudge"
+    }
+  },
+  {
+    "Salud Carbajal": {
+      "ideology": 0.28478418446791953,
+      "name": "Salud Carbajal",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepCarbajal"
+    }
+  },
+  {
+    "Rick Larsen": {
+      "ideology": 0.2852813930758417,
+      "name": "Rick Larsen",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@RepRickLarsen"
+    }
+  },
+  {
+    "Eddie Johnson": {
+      "ideology": 0.28600806283571123,
+      "name": "Eddie Johnson",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Lisa Blunt Rochester": {
+      "ideology": 0.28750547777173224,
+      "name": "Lisa Blunt Rochester",
+      "party": "D",
+      "state": "DE",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Garamendi": {
+      "ideology": 0.28800065010770537,
+      "name": "John Garamendi",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepGaramendi"
+    }
+  },
+  {
+    "Anna Eshoo": {
+      "ideology": 0.2888855975644069,
+      "name": "Anna Eshoo",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepAnnaEshoo"
+    }
+  },
+  {
+    "Eliot Engel": {
+      "ideology": 0.29413975693817296,
+      "name": "Eliot Engel",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepEliotEngel"
+    }
+  },
+  {
+    "Dina Titus": {
+      "ideology": 0.29599090642697795,
+      "name": "Dina Titus",
+      "party": "D",
+      "state": "NV",
+      "twitter_handler": "@dinatitus"
+    }
+  },
+  {
+    "Linda S\u00e1nchez": {
+      "ideology": 0.29603665063774826,
+      "name": "Linda S\u00e1nchez",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepLindaSanchez"
+    }
+  },
+  {
+    "Albio Sires": {
+      "ideology": 0.2970534903176509,
+      "name": "Albio Sires",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@RepSires"
+    }
+  },
+  {
+    "Grace Meng": {
+      "ideology": 0.2996653001683001,
+      "name": "Grace Meng",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepGraceMeng"
+    }
+  },
+  {
+    "Bobby Rush": {
+      "ideology": 0.2999094606058901,
+      "name": "Bobby Rush",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RepBobbyRush"
+    }
+  },
+  {
+    "Norma Torres": {
+      "ideology": 0.3023630445625525,
+      "name": "Norma Torres",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@NormaJTorres"
+    }
+  },
+  {
+    "John Sarbanes": {
+      "ideology": 0.30300238629874504,
+      "name": "John Sarbanes",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": "@RepSarbanes"
+    }
+  },
+  {
+    "John Yarmuth": {
+      "ideology": 0.3035932944030849,
+      "name": "John Yarmuth",
+      "party": "D",
+      "state": "KY",
+      "twitter_handler": "@RepJohnYarmuth"
+    }
+  },
+  {
+    "Peter Welch": {
+      "ideology": 0.3040682703008544,
+      "name": "Peter Welch",
+      "party": "D",
+      "state": "VT",
+      "twitter_handler": "@PeterWelch"
+    }
+  },
+  {
+    "Susan Davis": {
+      "ideology": 0.3041763026592921,
+      "name": "Susan Davis",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepSusanDavis"
+    }
+  },
+  {
+    "Nita Lowey": {
+      "ideology": 0.3045629731609468,
+      "name": "Nita Lowey",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@NitaLowey"
+    }
+  },
+  {
+    "Sean Maloney": {
+      "ideology": 0.30577285344132416,
+      "name": "Sean Maloney",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ruben Kihuen": {
+      "ideology": 0.3058809926193211,
+      "name": "Ruben Kihuen",
+      "party": "D",
+      "state": "NV",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Daniel Kildee": {
+      "ideology": 0.3059227736175281,
+      "name": "Daniel Kildee",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Adam Schiff": {
+      "ideology": 0.3061939759356458,
+      "name": "Adam Schiff",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepAdamSchiff"
+    }
+  },
+  {
+    "Joe Crowley": {
+      "ideology": 0.30790288240299923,
+      "name": "Joe Crowley",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@JoeCrowleyNY"
+    }
+  },
+  {
+    "Val Demings": {
+      "ideology": 0.3080666544917332,
+      "name": "Val Demings",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@RepValDemings"
+    }
+  },
+  {
+    "William Keating": {
+      "ideology": 0.30933855007644606,
+      "name": "William Keating",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Bennie Thompson": {
+      "ideology": 0.31013340742097434,
+      "name": "Bennie Thompson",
+      "party": "D",
+      "state": "MS",
+      "twitter_handler": "@BennieGThompson"
+    }
+  },
+  {
+    "Doris Matsui": {
+      "ideology": 0.31320058521270155,
+      "name": "Doris Matsui",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@DorisMatsui"
+    }
+  },
+  {
+    "Diana DeGette": {
+      "ideology": 0.3132683688312817,
+      "name": "Diana DeGette",
+      "party": "D",
+      "state": "CO",
+      "twitter_handler": "@RepDianaDeGette"
+    }
+  },
+  {
+    "Cedric Richmond": {
+      "ideology": 0.3140279805966698,
+      "name": "Cedric Richmond",
+      "party": "D",
+      "state": "LA",
+      "twitter_handler": "@RepRichmond"
+    }
+  },
+  {
+    "Stacey Plaskett": {
+      "ideology": 0.3148873595752876,
+      "name": "Stacey Plaskett",
+      "party": "D",
+      "state": "VI",
+      "twitter_handler": "@StaceyPlaskett"
+    }
+  },
+  {
+    "Pete Aguilar": {
+      "ideology": 0.3156945245938585,
+      "name": "Pete Aguilar",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@aguilarpete"
+    }
+  },
+  {
+    "Eric Swalwell": {
+      "ideology": 0.3159832021711745,
+      "name": "Eric Swalwell",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepSwalwell"
+    }
+  },
+  {
+    "Lacy Clay": {
+      "ideology": 0.3167103815636064,
+      "name": "Lacy Clay",
+      "party": "D",
+      "state": "MO",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Joseph Kennedy": {
+      "ideology": 0.31988138514004666,
+      "name": "Joseph Kennedy",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "George Butterfield": {
+      "ideology": 0.3207803328740702,
+      "name": "George Butterfield",
+      "party": "D",
+      "state": "NC",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Sander Levin": {
+      "ideology": 0.3248434357267029,
+      "name": "Sander Levin",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Lloyd Doggett": {
+      "ideology": 0.32502128953893605,
+      "name": "Lloyd Doggett",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@RepLloydDoggett"
+    }
+  },
+  {
+    "Brian Higgins": {
+      "ideology": 0.3277463557134471,
+      "name": "Brian Higgins",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepBrianHiggins"
+    }
+  },
+  {
+    "Matthew Cartwright": {
+      "ideology": 0.3301879941226595,
+      "name": "Matthew Cartwright",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Gregorio Sablan": {
+      "ideology": 0.3304830399653942,
+      "name": "Gregorio Sablan",
+      "party": "D",
+      "state": "MP",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Julia Brownley": {
+      "ideology": 0.3309530542815645,
+      "name": "Julia Brownley",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepBrownley"
+    }
+  },
+  {
+    "Theodore Deutch": {
+      "ideology": 0.3309989443656557,
+      "name": "Theodore Deutch",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jim Clyburn": {
+      "ideology": 0.3318907923772841,
+      "name": "Jim Clyburn",
+      "party": "D",
+      "state": "SC",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Al Lawson": {
+      "ideology": 0.3345092835225539,
+      "name": "Al Lawson",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jimmy Panetta": {
+      "ideology": 0.3345355730244057,
+      "name": "Jimmy Panetta",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepJimmyPanetta"
+    }
+  },
+  {
+    "Tim Ryan": {
+      "ideology": 0.3353193174877628,
+      "name": "Tim Ryan",
+      "party": "D",
+      "state": "OH",
+      "twitter_handler": "@RepTimRyan"
+    }
+  },
+  {
+    "Raja Krishnamoorthi": {
+      "ideology": 0.33533757961471505,
+      "name": "Raja Krishnamoorthi",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@CongressmanRaja"
+    }
+  },
+  {
+    "Charlie Crist": {
+      "ideology": 0.3356904535895149,
+      "name": "Charlie Crist",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@RepCharlieCrist"
+    }
+  },
+  {
+    "David Price": {
+      "ideology": 0.3361481867393019,
+      "name": "David Price",
+      "party": "D",
+      "state": "NC",
+      "twitter_handler": "@RepDavidEPrice"
+    }
+  },
+  {
+    "Tony C\u00e1rdenas": {
+      "ideology": 0.3365520115788244,
+      "name": "Tony C\u00e1rdenas",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepCardenas"
+    }
+  },
+  {
+    "Gerald Connolly": {
+      "ideology": 0.33672602742732705,
+      "name": "Gerald Connolly",
+      "party": "D",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tulsi Gabbard": {
+      "ideology": 0.3382445297565082,
+      "name": "Tulsi Gabbard",
+      "party": "D",
+      "state": "HI",
+      "twitter_handler": "@TulsiPress"
+    }
+  },
+  {
+    "Lois Frankel": {
+      "ideology": 0.3384846959667225,
+      "name": "Lois Frankel",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@RepLoisFrankel"
+    }
+  },
+  {
+    "Marc Veasey": {
+      "ideology": 0.3387825603482401,
+      "name": "Marc Veasey",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@RepVeasey"
+    }
+  },
+  {
+    "Donald Norcross": {
+      "ideology": 0.3446965157461198,
+      "name": "Donald Norcross",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@DonaldNorcross"
+    }
+  },
+  {
+    "Bill Foster": {
+      "ideology": 0.3456162572177172,
+      "name": "Bill Foster",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RepBillFoster"
+    }
+  },
+  {
+    "Brendan Boyle": {
+      "ideology": 0.34574252068281336,
+      "name": "Brendan Boyle",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": "@CongBoyle"
+    }
+  },
+  {
+    "Joaquin Castro": {
+      "ideology": 0.34695080434198644,
+      "name": "Joaquin Castro",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@JoaquinCastrotx"
+    }
+  },
+  {
+    "Jared Polis": {
+      "ideology": 0.3471575406749793,
+      "name": "Jared Polis",
+      "party": "D",
+      "state": "CO",
+      "twitter_handler": "@jaredpolis"
+    }
+  },
+  {
+    "Seth Moulton": {
+      "ideology": 0.3479138551680179,
+      "name": "Seth Moulton",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": "@sethmoulton"
+    }
+  },
+  {
+    "Ben Luj\u00e1n": {
+      "ideology": 0.34843385726965426,
+      "name": "Ben Luj\u00e1n",
+      "party": "D",
+      "state": "NM",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Joyce Beatty": {
+      "ideology": 0.3534547824600401,
+      "name": "Joyce Beatty",
+      "party": "D",
+      "state": "OH",
+      "twitter_handler": "@RepBeatty"
+    }
+  },
+  {
+    "Beto O\u2019Rourke": {
+      "ideology": 0.3560442232373668,
+      "name": "Beto O\u2019Rourke",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Suzan DelBene": {
+      "ideology": 0.3567180863222403,
+      "name": "Suzan DelBene",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@RepDelBene"
+    }
+  },
+  {
+    "Bill Pascrell": {
+      "ideology": 0.3575204639124729,
+      "name": "Bill Pascrell",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@BillPascrell"
+    }
+  },
+  {
+    "Madeleine Bordallo": {
+      "ideology": 0.3598380415222341,
+      "name": "Madeleine Bordallo",
+      "party": "D",
+      "state": "GU",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Emanuel Cleaver": {
+      "ideology": 0.3616240838115611,
+      "name": "Emanuel Cleaver",
+      "party": "D",
+      "state": "MO",
+      "twitter_handler": "@repcleaver"
+    }
+  },
+  {
+    "Elizabeth Esty": {
+      "ideology": 0.3659836839693475,
+      "name": "Elizabeth Esty",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Scott Peters": {
+      "ideology": 0.3688343041463851,
+      "name": "Scott Peters",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepScottPeters"
+    }
+  },
+  {
+    "Richard Nolan": {
+      "ideology": 0.3711260842684052,
+      "name": "Richard Nolan",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ed Perlmutter": {
+      "ideology": 0.3715640139475281,
+      "name": "Ed Perlmutter",
+      "party": "D",
+      "state": "CO",
+      "twitter_handler": "@RepPerlmutter"
+    }
+  },
+  {
+    "Joseph Morelle": {
+      "ideology": 0.37598401559951256,
+      "name": "Joseph Morelle",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Steny Hoyer": {
+      "ideology": 0.3766881200095045,
+      "name": "Steny Hoyer",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": "@LeaderHoyer"
+    }
+  },
+  {
+    "Peter DeFazio": {
+      "ideology": 0.3800927998303865,
+      "name": "Peter DeFazio",
+      "party": "D",
+      "state": "OR",
+      "twitter_handler": "@RepPeterDeFazio"
+    }
+  },
+  {
+    "Kathleen Rice": {
+      "ideology": 0.38095926855473455,
+      "name": "Kathleen Rice",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": "@RepKathleenRice"
+    }
+  },
+  {
+    "Nancy Pelosi": {
+      "ideology": 0.3824464581598751,
+      "name": "Nancy Pelosi",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@SpeakerPelosi"
+    }
+  },
+  {
+    "Denny Heck": {
+      "ideology": 0.3859882630233734,
+      "name": "Denny Heck",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@RepDennyHeck"
+    }
+  },
+  {
+    "Joe Courtney": {
+      "ideology": 0.3884941034703397,
+      "name": "Joe Courtney",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": "@RepJoeCourtney"
+    }
+  },
+  {
+    "Robert Brady": {
+      "ideology": 0.3914972508507549,
+      "name": "Robert Brady",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Larson": {
+      "ideology": 0.3927612468265972,
+      "name": "John Larson",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": "@RepJohnLarson"
+    }
+  },
+  {
+    "Mike Doyle": {
+      "ideology": 0.39294972723011135,
+      "name": "Mike Doyle",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": "@USRepMikeDoyle"
+    }
+  },
+  {
+    "James Himes": {
+      "ideology": 0.3977268964491537,
+      "name": "James Himes",
+      "party": "D",
+      "state": "CT",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jacky Rosen": {
+      "ideology": 0.40004304220091175,
+      "name": "Jacky Rosen",
+      "party": "D",
+      "state": "NV",
+      "twitter_handler": "@SenJackyRosen"
+    }
+  },
+  {
+    "Richard Neal": {
+      "ideology": 0.4000559289416492,
+      "name": "Richard Neal",
+      "party": "D",
+      "state": "MA",
+      "twitter_handler": "@RepRichardNeal"
+    }
+  },
+  {
+    "Luis Correa": {
+      "ideology": 0.40243972002288425,
+      "name": "Luis Correa",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Mike Thompson": {
+      "ideology": 0.41162086736179065,
+      "name": "Mike Thompson",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepThompson"
+    }
+  },
+  {
+    "Filemon Vela": {
+      "ideology": 0.4116692432829445,
+      "name": "Filemon Vela",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Raul Ruiz": {
+      "ideology": 0.4128073791317179,
+      "name": "Raul Ruiz",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@CongressmanRuiz"
+    }
+  },
+  {
+    "Peter Visclosky": {
+      "ideology": 0.4178130939718298,
+      "name": "Peter Visclosky",
+      "party": "D",
+      "state": "IN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Mary Scanlon": {
+      "ideology": 0.4179516331457454,
+      "name": "Mary Scanlon",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Cheri Bustos": {
+      "ideology": 0.4193387187727951,
+      "name": "Cheri Bustos",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RepCheri"
+    }
+  },
+  {
+    "Conor Lamb": {
+      "ideology": 0.4201660291438507,
+      "name": "Conor Lamb",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": "@RepConorLamb"
+    }
+  },
+  {
+    "Thomas Suozzi": {
+      "ideology": 0.4202220426276496,
+      "name": "Thomas Suozzi",
+      "party": "D",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Susan Wild": {
+      "ideology": 0.42180232067433343,
+      "name": "Susan Wild",
+      "party": "D",
+      "state": "PA",
+      "twitter_handler": "@RepSusanWild"
+    }
+  },
+  {
+    "Derek Kilmer": {
+      "ideology": 0.4240097226454065,
+      "name": "Derek Kilmer",
+      "party": "D",
+      "state": "WA",
+      "twitter_handler": "@RepDerekKilmer"
+    }
+  },
+  {
+    "Ann Kuster": {
+      "ideology": 0.4293736355526366,
+      "name": "Ann Kuster",
+      "party": "D",
+      "state": "NH",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "David Scott": {
+      "ideology": 0.4305717955200164,
+      "name": "David Scott",
+      "party": "D",
+      "state": "GA",
+      "twitter_handler": "@repdavidscott"
+    }
+  },
+  {
+    "Terri Sewell": {
+      "ideology": 0.4313705687137213,
+      "name": "Terri Sewell",
+      "party": "D",
+      "state": "AL",
+      "twitter_handler": "@RepTerriSewell"
+    }
+  },
+  {
+    "Brad Sherman": {
+      "ideology": 0.4360545324511971,
+      "name": "Brad Sherman",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@BradSherman"
+    }
+  },
+  {
+    "Jim Cooper": {
+      "ideology": 0.44184147994787387,
+      "name": "Jim Cooper",
+      "party": "D",
+      "state": "TN",
+      "twitter_handler": "@repjimcooper"
+    }
+  },
+  {
+    "Ami Bera": {
+      "ideology": 0.4435163986481513,
+      "name": "Ami Bera",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepBera"
+    }
+  },
+  {
+    "Bradley Schneider": {
+      "ideology": 0.4463524001693265,
+      "name": "Bradley Schneider",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Stephanie Murphy": {
+      "ideology": 0.4467243448394545,
+      "name": "Stephanie Murphy",
+      "party": "D",
+      "state": "FL",
+      "twitter_handler": "@RepStephMurphy"
+    }
+  },
+  {
+    "Daniel Lipinski": {
+      "ideology": 0.450033858388774,
+      "name": "Daniel Lipinski",
+      "party": "D",
+      "state": "IL",
+      "twitter_handler": "@RepLipinski"
+    }
+  },
+  {
+    "Brenda Jones": {
+      "ideology": 0.4509796632808349,
+      "name": "Brenda Jones",
+      "party": "D",
+      "state": "MI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Sanford Bishop": {
+      "ideology": 0.4513831522393456,
+      "name": "Sanford Bishop",
+      "party": "D",
+      "state": "GA",
+      "twitter_handler": "@SanfordBishop"
+    }
+  },
+  {
+    "Gene Green": {
+      "ideology": 0.4536858746868266,
+      "name": "Gene Green",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Dutch Ruppersberger": {
+      "ideology": 0.4538792345810471,
+      "name": "Dutch Ruppersberger",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": "@Call_Me_Dutch"
+    }
+  },
+  {
+    "Timothy Walz": {
+      "ideology": 0.4559314364821782,
+      "name": "Timothy Walz",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Paul Ryan": {
+      "ideology": 0.4584089333357799,
+      "name": "Paul Ryan",
+      "party": "R",
+      "state": "WI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "David Loebsack": {
+      "ideology": 0.463007769784148,
+      "name": "David Loebsack",
+      "party": "D",
+      "state": "IA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kevin Hern": {
+      "ideology": 0.4634490594097852,
+      "name": "Kevin Hern",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": "@repkevinhern"
+    }
+  },
+  {
+    "Troy Balderson": {
+      "ideology": 0.4709742345522774,
+      "name": "Troy Balderson",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@RepBalderson"
+    }
+  },
+  {
+    "John Delaney": {
+      "ideology": 0.4795265512698514,
+      "name": "John Delaney",
+      "party": "D",
+      "state": "MD",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tom O\u2019Halleran": {
+      "ideology": 0.4900733176231379,
+      "name": "Tom O\u2019Halleran",
+      "party": "D",
+      "state": "AZ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kevin McCarthy": {
+      "ideology": 0.4993186503375753,
+      "name": "Kevin McCarthy",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@GOPLeader"
+    }
+  },
+  {
+    "Jim Costa": {
+      "ideology": 0.5190682945947543,
+      "name": "Jim Costa",
+      "party": "D",
+      "state": "CA",
+      "twitter_handler": "@RepJimCosta"
+    }
+  },
+  {
+    "Kurt Schrader": {
+      "ideology": 0.5194228544582105,
+      "name": "Kurt Schrader",
+      "party": "D",
+      "state": "OR",
+      "twitter_handler": "@RepSchrader"
+    }
+  },
+  {
+    "Vicente Gonzalez": {
+      "ideology": 0.5317388314314748,
+      "name": "Vicente Gonzalez",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@RepGonzalez"
+    }
+  },
+  {
+    "Justin Amash": {
+      "ideology": 0.5326364068654876,
+      "name": "Justin Amash",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": "@justinamash"
+    }
+  },
+  {
+    "Michael Cloud": {
+      "ideology": 0.5487806391536213,
+      "name": "Michael Cloud",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepCloudTX"
+    }
+  },
+  {
+    "Josh Gottheimer": {
+      "ideology": 0.5611410369358477,
+      "name": "Josh Gottheimer",
+      "party": "D",
+      "state": "NJ",
+      "twitter_handler": "@RepJoshG"
+    }
+  },
+  {
+    "Ron Kind": {
+      "ideology": 0.5729460298921204,
+      "name": "Ron Kind",
+      "party": "D",
+      "state": "WI",
+      "twitter_handler": "@RepRonKind"
+    }
+  },
+  {
+    "Ileana Ros-Lehtinen": {
+      "ideology": 0.5729909978311186,
+      "name": "Ileana Ros-Lehtinen",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "David Reichert": {
+      "ideology": 0.5892913065467105,
+      "name": "David Reichert",
+      "party": "R",
+      "state": "WA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Rodney Frelinghuysen": {
+      "ideology": 0.5916519876895251,
+      "name": "Rodney Frelinghuysen",
+      "party": "R",
+      "state": "NJ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Rob Woodall": {
+      "ideology": 0.5930071772486832,
+      "name": "Rob Woodall",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepRobWoodall"
+    }
+  },
+  {
+    "Patrick McHenry": {
+      "ideology": 0.5945431663533869,
+      "name": "Patrick McHenry",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@PatrickMcHenry"
+    }
+  },
+  {
+    "Scott Taylor": {
+      "ideology": 0.6020364159864601,
+      "name": "Scott Taylor",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jenniffer Gonz\u00e1lez-Col\u00f3n": {
+      "ideology": 0.6020535016007562,
+      "name": "Jenniffer Gonz\u00e1lez-Col\u00f3n",
+      "party": "R",
+      "state": "PR",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tom Reed": {
+      "ideology": 0.6032063420563274,
+      "name": "Tom Reed",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": "@RepTomReed"
+    }
+  },
+  {
+    "Hal Rogers": {
+      "ideology": 0.6061905884382693,
+      "name": "Hal Rogers",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": "@RepHalRogers"
+    }
+  },
+  {
+    "Frank LoBiondo": {
+      "ideology": 0.610015307897227,
+      "name": "Frank LoBiondo",
+      "party": "R",
+      "state": "NJ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Trey Gowdy": {
+      "ideology": 0.6133674434065389,
+      "name": "Trey Gowdy",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Steve Scalise": {
+      "ideology": 0.6161452087308867,
+      "name": "Steve Scalise",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@SteveScalise"
+    }
+  },
+  {
+    "Mike Simpson": {
+      "ideology": 0.6193680590936247,
+      "name": "Mike Simpson",
+      "party": "R",
+      "state": "ID",
+      "twitter_handler": "@CongMikeSimpson"
+    }
+  },
+  {
+    "Mario Diaz-Balart": {
+      "ideology": 0.6235844049900682,
+      "name": "Mario Diaz-Balart",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@MarioDB"
+    }
+  },
+  {
+    "Vern Buchanan": {
+      "ideology": 0.6257714068628111,
+      "name": "Vern Buchanan",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@VernBuchanan"
+    }
+  },
+  {
+    "Aumua Amata": {
+      "ideology": 0.6262327309988271,
+      "name": "Aumua Amata",
+      "party": "R",
+      "state": "AS",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Henry Cuellar": {
+      "ideology": 0.6288106544500294,
+      "name": "Henry Cuellar",
+      "party": "D",
+      "state": "TX",
+      "twitter_handler": "@RepCuellar"
+    }
+  },
+  {
+    "Thomas Massie": {
+      "ideology": 0.6299079212899442,
+      "name": "Thomas Massie",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": "@RepThomasMassie"
+    }
+  },
+  {
+    "Ed Royce": {
+      "ideology": 0.6350507405775516,
+      "name": "Ed Royce",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Virginia Foxx": {
+      "ideology": 0.6350646505256955,
+      "name": "Virginia Foxx",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@virginiafoxx"
+    }
+  },
+  {
+    "Mark Sanford": {
+      "ideology": 0.6403011417155928,
+      "name": "Mark Sanford",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Greg Walden": {
+      "ideology": 0.6407339591301899,
+      "name": "Greg Walden",
+      "party": "R",
+      "state": "OR",
+      "twitter_handler": "@repgregwalden"
+    }
+  },
+  {
+    "Mac Thornberry": {
+      "ideology": 0.6459747712517935,
+      "name": "Mac Thornberry",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kay Granger": {
+      "ideology": 0.6476432080775153,
+      "name": "Kay Granger",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepKayGranger"
+    }
+  },
+  {
+    "Devin Nunes": {
+      "ideology": 0.6484763356350953,
+      "name": "Devin Nunes",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@RepDevinNunes"
+    }
+  },
+  {
+    "Leonard Lance": {
+      "ideology": 0.6487383611903363,
+      "name": "Leonard Lance",
+      "party": "R",
+      "state": "NJ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Dana Rohrabacher": {
+      "ideology": 0.6495910339273284,
+      "name": "Dana Rohrabacher",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ryan Costello": {
+      "ideology": 0.6510796343420152,
+      "name": "Ryan Costello",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tom MacArthur": {
+      "ideology": 0.6518687009003845,
+      "name": "Tom MacArthur",
+      "party": "R",
+      "state": "NJ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jason Lewis": {
+      "ideology": 0.6526243349551789,
+      "name": "Jason Lewis",
+      "party": "R",
+      "state": "MN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Daniel Donovan": {
+      "ideology": 0.6565556432240213,
+      "name": "Daniel Donovan",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Curtis": {
+      "ideology": 0.6590935968790771,
+      "name": "John Curtis",
+      "party": "R",
+      "state": "UT",
+      "twitter_handler": "@RepJohnCurtis"
+    }
+  },
+  {
+    "Darrell Issa": {
+      "ideology": 0.6594761426523226,
+      "name": "Darrell Issa",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Pete King": {
+      "ideology": 0.6606543370282332,
+      "name": "Pete King",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": "@RepPeteKing"
+    }
+  },
+  {
+    "Fred Upton": {
+      "ideology": 0.6610874651245915,
+      "name": "Fred Upton",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": "@RepFredUpton"
+    }
+  },
+  {
+    "Bill Shuster": {
+      "ideology": 0.6615539208348995,
+      "name": "Bill Shuster",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Katko": {
+      "ideology": 0.662610319595245,
+      "name": "John Katko",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": "@RepJohnKatko"
+    }
+  },
+  {
+    "Jaime Herrera Beutler": {
+      "ideology": 0.6627954962037675,
+      "name": "Jaime Herrera Beutler",
+      "party": "R",
+      "state": "WA",
+      "twitter_handler": "@HerreraBeutler"
+    }
+  },
+  {
+    "Jeff Denham": {
+      "ideology": 0.664051310870137,
+      "name": "Jeff Denham",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Garret Graves": {
+      "ideology": 0.6655768109086597,
+      "name": "Garret Graves",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@RepGarretGraves"
+    }
+  },
+  {
+    "Will Hurd": {
+      "ideology": 0.6683812471893573,
+      "name": "Will Hurd",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@HurdOnTheHill"
+    }
+  },
+  {
+    "Mimi Walters": {
+      "ideology": 0.6700259323166833,
+      "name": "Mimi Walters",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ra\u00fal Labrador": {
+      "ideology": 0.6732160080661004,
+      "name": "Ra\u00fal Labrador",
+      "party": "R",
+      "state": "ID",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Trey Hollingsworth": {
+      "ideology": 0.6738446313447883,
+      "name": "Trey Hollingsworth",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": "@RepTrey"
+    }
+  },
+  {
+    "Martha Roby": {
+      "ideology": 0.6769867480301616,
+      "name": "Martha Roby",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@RepMarthaRoby"
+    }
+  },
+  {
+    "Brian Mast": {
+      "ideology": 0.6782389777882074,
+      "name": "Brian Mast",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepBrianMast"
+    }
+  },
+  {
+    "Chris Smith": {
+      "ideology": 0.6786254514597734,
+      "name": "Chris Smith",
+      "party": "R",
+      "state": "NJ",
+      "twitter_handler": "@RepChrisSmith"
+    }
+  },
+  {
+    "Debbie Lesko": {
+      "ideology": 0.6794425173235219,
+      "name": "Debbie Lesko",
+      "party": "R",
+      "state": "AZ",
+      "twitter_handler": "@RepDLesko"
+    }
+  },
+  {
+    "Joe Barton": {
+      "ideology": 0.6803930946948809,
+      "name": "Joe Barton",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Gary Palmer": {
+      "ideology": 0.6820062776789374,
+      "name": "Gary Palmer",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@USRepGaryPalmer"
+    }
+  },
+  {
+    "Liz Cheney": {
+      "ideology": 0.6825253315467171,
+      "name": "Liz Cheney",
+      "party": "R",
+      "state": "WY",
+      "twitter_handler": "@RepLizCheney"
+    }
+  },
+  {
+    "Steve Russell": {
+      "ideology": 0.6826404036430493,
+      "name": "Steve Russell",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kevin Brady": {
+      "ideology": 0.6841419656067136,
+      "name": "Kevin Brady",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepKevinBrady"
+    }
+  },
+  {
+    "Peter Roskam": {
+      "ideology": 0.6937857499518171,
+      "name": "Peter Roskam",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kyrsten Sinema": {
+      "ideology": 0.6974953127755302,
+      "name": "Kyrsten Sinema",
+      "party": "D",
+      "state": "AZ",
+      "twitter_handler": "@SenatorSinema"
+    }
+  },
+  {
+    "John Shimkus": {
+      "ideology": 0.6983963678933366,
+      "name": "John Shimkus",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": "@RepShimkus"
+    }
+  },
+  {
+    "Mia Love": {
+      "ideology": 0.6984530665296413,
+      "name": "Mia Love",
+      "party": "R",
+      "state": "UT",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Faso": {
+      "ideology": 0.6991431704526393,
+      "name": "John Faso",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Adrian Smith": {
+      "ideology": 0.699309879617638,
+      "name": "Adrian Smith",
+      "party": "R",
+      "state": "NE",
+      "twitter_handler": "@RepAdrianSmith"
+    }
+  },
+  {
+    "Karen Handel": {
+      "ideology": 0.6996129513304419,
+      "name": "Karen Handel",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Don Young": {
+      "ideology": 0.6999394438368088,
+      "name": "Don Young",
+      "party": "R",
+      "state": "AK",
+      "twitter_handler": "@repdonyoung"
+    }
+  },
+  {
+    "James Comer": {
+      "ideology": 0.7007034972615607,
+      "name": "James Comer",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": "@KYComer"
+    }
+  },
+  {
+    "Adam Kinzinger": {
+      "ideology": 0.7016085955480498,
+      "name": "Adam Kinzinger",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": "@RepKinzinger"
+    }
+  },
+  {
+    "John Carter": {
+      "ideology": 0.7024561092818974,
+      "name": "John Carter",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Steve Womack": {
+      "ideology": 0.7025895781131019,
+      "name": "Steve Womack",
+      "party": "R",
+      "state": "AR",
+      "twitter_handler": "@rep_stevewomack"
+    }
+  },
+  {
+    "Cathy McMorris Rodgers": {
+      "ideology": 0.7031122001327134,
+      "name": "Cathy McMorris Rodgers",
+      "party": "R",
+      "state": "WA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Dave Trott": {
+      "ideology": 0.7035189941592612,
+      "name": "Dave Trott",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Frank Lucas": {
+      "ideology": 0.7074399387033364,
+      "name": "Frank Lucas",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": "@RepFrankLucas"
+    }
+  },
+  {
+    "Steve Knight": {
+      "ideology": 0.7093291648230139,
+      "name": "Steve Knight",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Collin Peterson": {
+      "ideology": 0.7093877926116321,
+      "name": "Collin Peterson",
+      "party": "D",
+      "state": "MN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jack Bergman": {
+      "ideology": 0.7094041103913421,
+      "name": "Jack Bergman",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Warren Davidson": {
+      "ideology": 0.7102561220874158,
+      "name": "Warren Davidson",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@WarrenDavidson"
+    }
+  },
+  {
+    "Tom Rice": {
+      "ideology": 0.7105799334586151,
+      "name": "Tom Rice",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": "@RepTomRice"
+    }
+  },
+  {
+    "Erik Paulsen": {
+      "ideology": 0.7130492078028503,
+      "name": "Erik Paulsen",
+      "party": "R",
+      "state": "MN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Michael Conaway": {
+      "ideology": 0.7140948339075904,
+      "name": "Michael Conaway",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jim Jordan": {
+      "ideology": 0.7181975193938069,
+      "name": "Jim Jordan",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@Jim_Jordan"
+    }
+  },
+  {
+    "Martha McSally": {
+      "ideology": 0.7190961204558299,
+      "name": "Martha McSally",
+      "party": "R",
+      "state": "AZ",
+      "twitter_handler": "@SenMcSallyAZ"
+    }
+  },
+  {
+    "Rod Blum": {
+      "ideology": 0.7194678909584877,
+      "name": "Rod Blum",
+      "party": "R",
+      "state": "IA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tom Marino": {
+      "ideology": 0.7223148409477435,
+      "name": "Tom Marino",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "David Kustoff": {
+      "ideology": 0.7225205126585867,
+      "name": "David Kustoff",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@RepDavidKustoff"
+    }
+  },
+  {
+    "Jeff Fortenberry": {
+      "ideology": 0.722577777098881,
+      "name": "Jeff Fortenberry",
+      "party": "R",
+      "state": "NE",
+      "twitter_handler": "@JeffFortenberry"
+    }
+  },
+  {
+    "Sam Graves": {
+      "ideology": 0.7233432048618321,
+      "name": "Sam Graves",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Mark Amodei": {
+      "ideology": 0.7236993263637358,
+      "name": "Mark Amodei",
+      "party": "R",
+      "state": "NV",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Carlos Curbelo": {
+      "ideology": 0.7264831423654168,
+      "name": "Carlos Curbelo",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kevin Yoder": {
+      "ideology": 0.7302824873838253,
+      "name": "Kevin Yoder",
+      "party": "R",
+      "state": "KS",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Barbara Comstock": {
+      "ideology": 0.7303491296537231,
+      "name": "Barbara Comstock",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "David Joyce": {
+      "ideology": 0.7314924419064425,
+      "name": "David Joyce",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Michael Turner": {
+      "ideology": 0.7316398705406182,
+      "name": "Michael Turner",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Thomas Rooney": {
+      "ideology": 0.7324885650453273,
+      "name": "Thomas Rooney",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Morgan Griffith": {
+      "ideology": 0.733938482569702,
+      "name": "Morgan Griffith",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": "@RepMGriffith"
+    }
+  },
+  {
+    "John Rutherford": {
+      "ideology": 0.7352001667217104,
+      "name": "John Rutherford",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepRutherfordFL"
+    }
+  },
+  {
+    "Ken Buck": {
+      "ideology": 0.7354214022338871,
+      "name": "Ken Buck",
+      "party": "R",
+      "state": "CO",
+      "twitter_handler": "@RepKenBuck"
+    }
+  },
+  {
+    "Mike Rogers": {
+      "ideology": 0.7358381721684796,
+      "name": "Mike Rogers",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@RepMikeRogersAL"
+    }
+  },
+  {
+    "Brian Fitzpatrick": {
+      "ideology": 0.7379877263448299,
+      "name": "Brian Fitzpatrick",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": "@RepBrianFitz"
+    }
+  },
+  {
+    "Sean Duffy": {
+      "ideology": 0.7387141258664129,
+      "name": "Sean Duffy",
+      "party": "R",
+      "state": "WI",
+      "twitter_handler": "@RepSeanDuffy"
+    }
+  },
+  {
+    "Greg Gianforte": {
+      "ideology": 0.7421342728205266,
+      "name": "Greg Gianforte",
+      "party": "R",
+      "state": "MT",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Michael Burgess": {
+      "ideology": 0.7422184194090088,
+      "name": "Michael Burgess",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jimmy Duncan": {
+      "ideology": 0.7436248781533729,
+      "name": "Jimmy Duncan",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Robert Aderholt": {
+      "ideology": 0.7436642095781105,
+      "name": "Robert Aderholt",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@Robert_Aderholt"
+    }
+  },
+  {
+    "Rob Bishop": {
+      "ideology": 0.7436897966205708,
+      "name": "Rob Bishop",
+      "party": "R",
+      "state": "UT",
+      "twitter_handler": "@RepRobBishop"
+    }
+  },
+  {
+    "Doug Collins": {
+      "ideology": 0.7442715763726389,
+      "name": "Doug Collins",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepDougCollins"
+    }
+  },
+  {
+    "Bob Goodlatte": {
+      "ideology": 0.7449177723123053,
+      "name": "Bob Goodlatte",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Darin LaHood": {
+      "ideology": 0.7462318255177863,
+      "name": "Darin LaHood",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": "@RepLaHood"
+    }
+  },
+  {
+    "George Holding": {
+      "ideology": 0.7472045810047417,
+      "name": "George Holding",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepHolding"
+    }
+  },
+  {
+    "Ron Estes": {
+      "ideology": 0.7506855579634911,
+      "name": "Ron Estes",
+      "party": "R",
+      "state": "KS",
+      "twitter_handler": "@RepRonEstes"
+    }
+  },
+  {
+    "Jeb Hensarling": {
+      "ideology": 0.7547422702745722,
+      "name": "Jeb Hensarling",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ken Calvert": {
+      "ideology": 0.7548953709021011,
+      "name": "Ken Calvert",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@KenCalvert"
+    }
+  },
+  {
+    "Lee Zeldin": {
+      "ideology": 0.7574673975643641,
+      "name": "Lee Zeldin",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": "@RepLeeZeldin"
+    }
+  },
+  {
+    "Rick Crawford": {
+      "ideology": 0.7579434630912273,
+      "name": "Rick Crawford",
+      "party": "R",
+      "state": "AR",
+      "twitter_handler": "@RepRickCrawford"
+    }
+  },
+  {
+    "Chuck Fleischmann": {
+      "ideology": 0.7581963652734018,
+      "name": "Chuck Fleischmann",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@RepChuck"
+    }
+  },
+  {
+    "Clay Higgins": {
+      "ideology": 0.7593431767511268,
+      "name": "Clay Higgins",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@RepClayHiggins"
+    }
+  },
+  {
+    "Tom Graves": {
+      "ideology": 0.7646674872912821,
+      "name": "Tom Graves",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepTomGraves"
+    }
+  },
+  {
+    "Paul Cook": {
+      "ideology": 0.7660885348418127,
+      "name": "Paul Cook",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@RepPaulCook"
+    }
+  },
+  {
+    "French Hill": {
+      "ideology": 0.766974358534176,
+      "name": "French Hill",
+      "party": "R",
+      "state": "AR",
+      "twitter_handler": "@RepFrenchHill"
+    }
+  },
+  {
+    "Markwayne Mullin": {
+      "ideology": 0.767323249523052,
+      "name": "Markwayne Mullin",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": "@RepMullin"
+    }
+  },
+  {
+    "David McKinley": {
+      "ideology": 0.768326965910473,
+      "name": "David McKinley",
+      "party": "R",
+      "state": "WV",
+      "twitter_handler": "@RepMcKinley"
+    }
+  },
+  {
+    "Chris Collins": {
+      "ideology": 0.7686827406365297,
+      "name": "Chris Collins",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": "@RepChrisCollins"
+    }
+  },
+  {
+    "Rodney Davis": {
+      "ideology": 0.7698820340642042,
+      "name": "Rodney Davis",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Bruce Poliquin": {
+      "ideology": 0.7715078243363717,
+      "name": "Bruce Poliquin",
+      "party": "R",
+      "state": "ME",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Brad Wenstrup": {
+      "ideology": 0.7716559389042275,
+      "name": "Brad Wenstrup",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@RepBradWenstrup"
+    }
+  },
+  {
+    "Lloyd Smucker": {
+      "ideology": 0.7725428569883418,
+      "name": "Lloyd Smucker",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": "@RepSmucker"
+    }
+  },
+  {
+    "Trent Kelly": {
+      "ideology": 0.7730305518790359,
+      "name": "Trent Kelly",
+      "party": "R",
+      "state": "MS",
+      "twitter_handler": "@RepTrentKelly"
+    }
+  },
+  {
+    "Susan Brooks": {
+      "ideology": 0.7733641162615653,
+      "name": "Susan Brooks",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": "@SusanWBrooks"
+    }
+  },
+  {
+    "Mike Bost": {
+      "ideology": 0.7747555534568121,
+      "name": "Mike Bost",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": "@RepBost"
+    }
+  },
+  {
+    "Diane Black": {
+      "ideology": 0.7751068201087584,
+      "name": "Diane Black",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Moolenaar": {
+      "ideology": 0.776081060117055,
+      "name": "John Moolenaar",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": "@RepMoolenaar"
+    }
+  },
+  {
+    "Daniel Webster": {
+      "ideology": 0.7803939206796909,
+      "name": "Daniel Webster",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepWebster"
+    }
+  },
+  {
+    "Larry Bucshon": {
+      "ideology": 0.7804949185703091,
+      "name": "Larry Bucshon",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Elise Stefanik": {
+      "ideology": 0.7805706995737153,
+      "name": "Elise Stefanik",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": "@RepStefanik"
+    }
+  },
+  {
+    "Mike Johnson": {
+      "ideology": 0.7812349660988467,
+      "name": "Mike Johnson",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@RepMikeJohnson"
+    }
+  },
+  {
+    "Gus Bilirakis": {
+      "ideology": 0.7816256329075405,
+      "name": "Gus Bilirakis",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepGusBilirakis"
+    }
+  },
+  {
+    "Mark Walker": {
+      "ideology": 0.7827413355575107,
+      "name": "Mark Walker",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepMarkWalker"
+    }
+  },
+  {
+    "Claudia Tenney": {
+      "ideology": 0.7836294174075682,
+      "name": "Claudia Tenney",
+      "party": "R",
+      "state": "NY",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "David Schweikert": {
+      "ideology": 0.7841297911995874,
+      "name": "David Schweikert",
+      "party": "R",
+      "state": "AZ",
+      "twitter_handler": "@RepDavid"
+    }
+  },
+  {
+    "Duncan Hunter": {
+      "ideology": 0.7843727017008661,
+      "name": "Duncan Hunter",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@Rep_Hunter"
+    }
+  },
+  {
+    "Sam Johnson": {
+      "ideology": 0.785344206268727,
+      "name": "Sam Johnson",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Francis Rooney": {
+      "ideology": 0.7858566421267301,
+      "name": "Francis Rooney",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepRooney"
+    }
+  },
+  {
+    "Dennis Ross": {
+      "ideology": 0.7869391125135865,
+      "name": "Dennis Ross",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Scott Perry": {
+      "ideology": 0.7883547297334489,
+      "name": "Scott Perry",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tom McClintock": {
+      "ideology": 0.7885776256717513,
+      "name": "Tom McClintock",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@RepMcClintock"
+    }
+  },
+  {
+    "Chris Stewart": {
+      "ideology": 0.7914104967012541,
+      "name": "Chris Stewart",
+      "party": "R",
+      "state": "UT",
+      "twitter_handler": "@RepChrisStewart"
+    }
+  },
+  {
+    "Mike Gallagher": {
+      "ideology": 0.7922838850079644,
+      "name": "Mike Gallagher",
+      "party": "R",
+      "state": "WI",
+      "twitter_handler": "@RepGallagher"
+    }
+  },
+  {
+    "David Valadao": {
+      "ideology": 0.7927662077445371,
+      "name": "David Valadao",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Mike Coffman": {
+      "ideology": 0.7929888733820311,
+      "name": "Mike Coffman",
+      "party": "R",
+      "state": "CO",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "James Sensenbrenner": {
+      "ideology": 0.7937698957652388,
+      "name": "James Sensenbrenner",
+      "party": "R",
+      "state": "WI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Robert Wittman": {
+      "ideology": 0.7945854812281279,
+      "name": "Robert Wittman",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Austin Scott": {
+      "ideology": 0.7958392259491991,
+      "name": "Austin Scott",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@AustinScottGA08"
+    }
+  },
+  {
+    "Kristi Noem": {
+      "ideology": 0.7994036719851122,
+      "name": "Kristi Noem",
+      "party": "R",
+      "state": "SD",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "John Culberson": {
+      "ideology": 0.7997515023690633,
+      "name": "John Culberson",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Ted Poe": {
+      "ideology": 0.8000682203808588,
+      "name": "Ted Poe",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Walter Jones": {
+      "ideology": 0.8004030830931801,
+      "name": "Walter Jones",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepWalterJones"
+    }
+  },
+  {
+    "Randy Hultgren": {
+      "ideology": 0.8007157371585424,
+      "name": "Randy Hultgren",
+      "party": "R",
+      "state": "IL",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Kenny Marchant": {
+      "ideology": 0.8013214282621307,
+      "name": "Kenny Marchant",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepKenMarchant"
+    }
+  },
+  {
+    "Keith Rothfus": {
+      "ideology": 0.8016407644508695,
+      "name": "Keith Rothfus",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jodey Arrington": {
+      "ideology": 0.8017959350693553,
+      "name": "Jodey Arrington",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Brett Guthrie": {
+      "ideology": 0.8021191616936905,
+      "name": "Brett Guthrie",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": "@RepGuthrie"
+    }
+  },
+  {
+    "Michael McCaul": {
+      "ideology": 0.8022476661828254,
+      "name": "Michael McCaul",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepMcCaul"
+    }
+  },
+  {
+    "Thomas Garrett": {
+      "ideology": 0.8045344716155436,
+      "name": "Thomas Garrett",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Bill Huizenga": {
+      "ideology": 0.8064713827383335,
+      "name": "Bill Huizenga",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": "@RepHuizenga"
+    }
+  },
+  {
+    "Robert Latta": {
+      "ideology": 0.8077984953309925,
+      "name": "Robert Latta",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Gregg Harper": {
+      "ideology": 0.8083352165941662,
+      "name": "Gregg Harper",
+      "party": "R",
+      "state": "MS",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Billy Long": {
+      "ideology": 0.8132618994740204,
+      "name": "Billy Long",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": "@USRepLong"
+    }
+  },
+  {
+    "Drew Ferguson": {
+      "ideology": 0.8135036283105482,
+      "name": "Drew Ferguson",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepDrewFerguson"
+    }
+  },
+  {
+    "Mo Brooks": {
+      "ideology": 0.8157614792971751,
+      "name": "Mo Brooks",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@RepMoBrooks"
+    }
+  },
+  {
+    "Don Bacon": {
+      "ideology": 0.8167746729519856,
+      "name": "Don Bacon",
+      "party": "R",
+      "state": "NE",
+      "twitter_handler": "@RepDonBacon"
+    }
+  },
+  {
+    "Lynn Jenkins": {
+      "ideology": 0.8173900662604683,
+      "name": "Lynn Jenkins",
+      "party": "R",
+      "state": "KS",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Roger Williams": {
+      "ideology": 0.8175108964789461,
+      "name": "Roger Williams",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepRWilliams"
+    }
+  },
+  {
+    "Neal Dunn": {
+      "ideology": 0.8178909404534387,
+      "name": "Neal Dunn",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@DrNealDunnFL2"
+    }
+  },
+  {
+    "Paul Mitchell": {
+      "ideology": 0.8179694476980769,
+      "name": "Paul Mitchell",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": "@RepPaulMitchell"
+    }
+  },
+  {
+    "Dan Newhouse": {
+      "ideology": 0.8216773985055726,
+      "name": "Dan Newhouse",
+      "party": "R",
+      "state": "WA",
+      "twitter_handler": "@RepNewhouse"
+    }
+  },
+  {
+    "David Young": {
+      "ideology": 0.8227915154935207,
+      "name": "David Young",
+      "party": "R",
+      "state": "IA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jason Smith": {
+      "ideology": 0.8232237588639243,
+      "name": "Jason Smith",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": "@RepJasonSmith"
+    }
+  },
+  {
+    "Mike Kelly": {
+      "ideology": 0.8254646650312036,
+      "name": "Mike Kelly",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": "@MikeKellyPA"
+    }
+  },
+  {
+    "Marsha Blackburn": {
+      "ideology": 0.8266922301385561,
+      "name": "Marsha Blackburn",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@MarshaBlackburn"
+    }
+  },
+  {
+    "Tom Emmer": {
+      "ideology": 0.8271272220380277,
+      "name": "Tom Emmer",
+      "party": "R",
+      "state": "MN",
+      "twitter_handler": "@RepTomEmmer"
+    }
+  },
+  {
+    "Jackie Walorski": {
+      "ideology": 0.8290313270446921,
+      "name": "Jackie Walorski",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": "@RepWalorski"
+    }
+  },
+  {
+    "Tim Walberg": {
+      "ideology": 0.830678838325986,
+      "name": "Tim Walberg",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": "@RepWalberg"
+    }
+  },
+  {
+    "Joe Wilson": {
+      "ideology": 0.8321585182298161,
+      "name": "Joe Wilson",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": "@RepJoeWilson"
+    }
+  },
+  {
+    "John Ratcliffe": {
+      "ideology": 0.8336915691019354,
+      "name": "John Ratcliffe",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepRatcliffe"
+    }
+  },
+  {
+    "Ann Wagner": {
+      "ideology": 0.8340240100801843,
+      "name": "Ann Wagner",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": "@RepAnnWagner"
+    }
+  },
+  {
+    "James Renacci": {
+      "ideology": 0.8361428724468141,
+      "name": "James Renacci",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Scott Tipton": {
+      "ideology": 0.8373760927828597,
+      "name": "Scott Tipton",
+      "party": "R",
+      "state": "CO",
+      "twitter_handler": "@RepTipton"
+    }
+  },
+  {
+    "Bruce Westerman": {
+      "ideology": 0.8406607987311963,
+      "name": "Bruce Westerman",
+      "party": "R",
+      "state": "AR",
+      "twitter_handler": "@RepWesterman"
+    }
+  },
+  {
+    "Lou Barletta": {
+      "ideology": 0.8409261033529891,
+      "name": "Lou Barletta",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Glenn Thompson": {
+      "ideology": 0.8428880971967424,
+      "name": "Glenn Thompson",
+      "party": "R",
+      "state": "PA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Tom Cole": {
+      "ideology": 0.8445577389255309,
+      "name": "Tom Cole",
+      "party": "R",
+      "state": "OK",
+      "twitter_handler": "@TomColeOK04"
+    }
+  },
+  {
+    "Steve Stivers": {
+      "ideology": 0.8451969911322321,
+      "name": "Steve Stivers",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@RepSteveStivers"
+    }
+  },
+  {
+    "Buddy Carter": {
+      "ideology": 0.8456619902883155,
+      "name": "Buddy Carter",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepBuddyCarter"
+    }
+  },
+  {
+    "Bill Johnson": {
+      "ideology": 0.8481236976859217,
+      "name": "Bill Johnson",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@RepBillJohnson"
+    }
+  },
+  {
+    "Vicky Hartzler": {
+      "ideology": 0.8483998255671757,
+      "name": "Vicky Hartzler",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": "@RepHartzler"
+    }
+  },
+  {
+    "Andy Harris": {
+      "ideology": 0.8501201417403249,
+      "name": "Andy Harris",
+      "party": "R",
+      "state": "MD",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Blaine Luetkemeyer": {
+      "ideology": 0.8519478570708761,
+      "name": "Blaine Luetkemeyer",
+      "party": "R",
+      "state": "MO",
+      "twitter_handler": "@RepBlaine"
+    }
+  },
+  {
+    "Steve Pearce": {
+      "ideology": 0.8521017710950988,
+      "name": "Steve Pearce",
+      "party": "R",
+      "state": "NM",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Barry Loudermilk": {
+      "ideology": 0.8531732715667073,
+      "name": "Barry Loudermilk",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepLoudermilk"
+    }
+  },
+  {
+    "Ted Budd": {
+      "ideology": 0.8555585332341065,
+      "name": "Ted Budd",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepTedBudd"
+    }
+  },
+  {
+    "Doug Lamborn": {
+      "ideology": 0.8557064826333638,
+      "name": "Doug Lamborn",
+      "party": "R",
+      "state": "CO",
+      "twitter_handler": "@RepDLamborn"
+    }
+  },
+  {
+    "Steven Palazzo": {
+      "ideology": 0.8582968987834637,
+      "name": "Steven Palazzo",
+      "party": "R",
+      "state": "MS",
+      "twitter_handler": "@CongPalazzo"
+    }
+  },
+  {
+    "Matt Gaetz": {
+      "ideology": 0.8630219637546659,
+      "name": "Matt Gaetz",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepMattGaetz"
+    }
+  },
+  {
+    "Dave Brat": {
+      "ideology": 0.864943761714517,
+      "name": "Dave Brat",
+      "party": "R",
+      "state": "VA",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Steve Chabot": {
+      "ideology": 0.866871743654627,
+      "name": "Steve Chabot",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@RepSteveChabot"
+    }
+  },
+  {
+    "Bill Posey": {
+      "ideology": 0.8684320620192215,
+      "name": "Bill Posey",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@congbillposey"
+    }
+  },
+  {
+    "Bradley Byrne": {
+      "ideology": 0.8690607378721659,
+      "name": "Bradley Byrne",
+      "party": "R",
+      "state": "AL",
+      "twitter_handler": "@RepByrne"
+    }
+  },
+  {
+    "Bob Gibbs": {
+      "ideology": 0.8693405214409613,
+      "name": "Bob Gibbs",
+      "party": "R",
+      "state": "OH",
+      "twitter_handler": "@RepBobGibbs"
+    }
+  },
+  {
+    "Andy Barr": {
+      "ideology": 0.8715167117485717,
+      "name": "Andy Barr",
+      "party": "R",
+      "state": "KY",
+      "twitter_handler": "@RepAndyBarr"
+    }
+  },
+  {
+    "Richard Hudson": {
+      "ideology": 0.8722860445255048,
+      "name": "Richard Hudson",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepRichHudson"
+    }
+  },
+  {
+    "Ted Yoho": {
+      "ideology": 0.8738977071709476,
+      "name": "Ted Yoho",
+      "party": "R",
+      "state": "FL",
+      "twitter_handler": "@RepTedYoho"
+    }
+  },
+  {
+    "Scott DesJarlais": {
+      "ideology": 0.8757982157152921,
+      "name": "Scott DesJarlais",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@DesJarlaisTN04"
+    }
+  },
+  {
+    "Roger Marshall": {
+      "ideology": 0.8765783568681116,
+      "name": "Roger Marshall",
+      "party": "R",
+      "state": "KS",
+      "twitter_handler": "@RepMarshall"
+    }
+  },
+  {
+    "Andy Biggs": {
+      "ideology": 0.8772953353071429,
+      "name": "Andy Biggs",
+      "party": "R",
+      "state": "AZ",
+      "twitter_handler": "@RepAndyBiggsAZ"
+    }
+  },
+  {
+    "Alex Mooney": {
+      "ideology": 0.8802398965902584,
+      "name": "Alex Mooney",
+      "party": "R",
+      "state": "WV",
+      "twitter_handler": "@RepAlexMooney"
+    }
+  },
+  {
+    "Jim Banks": {
+      "ideology": 0.8820965333751899,
+      "name": "Jim Banks",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Bill Flores": {
+      "ideology": 0.8886659077862085,
+      "name": "Bill Flores",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Rick Allen": {
+      "ideology": 0.8925485628016865,
+      "name": "Rick Allen",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@RepRickAllen"
+    }
+  },
+  {
+    "Lamar Smith": {
+      "ideology": 0.8954026589974563,
+      "name": "Lamar Smith",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Randy Weber": {
+      "ideology": 0.8962302357207275,
+      "name": "Randy Weber",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@TXRandy14"
+    }
+  },
+  {
+    "Luke Messer": {
+      "ideology": 0.897395328871323,
+      "name": "Luke Messer",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Robert Pittenger": {
+      "ideology": 0.9017491606045192,
+      "name": "Robert Pittenger",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Mike Bishop": {
+      "ideology": 0.9146485968147016,
+      "name": "Mike Bishop",
+      "party": "R",
+      "state": "MI",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Louie Gohmert": {
+      "ideology": 0.918796928510442,
+      "name": "Louie Gohmert",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@replouiegohmert"
+    }
+  },
+  {
+    "Ralph Abraham": {
+      "ideology": 0.9206537990433182,
+      "name": "Ralph Abraham",
+      "party": "R",
+      "state": "LA",
+      "twitter_handler": "@RepAbraham"
+    }
+  },
+  {
+    "Pete Olson": {
+      "ideology": 0.9226870284583724,
+      "name": "Pete Olson",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepPeteOlson"
+    }
+  },
+  {
+    "Jody Hice": {
+      "ideology": 0.9274628619441424,
+      "name": "Jody Hice",
+      "party": "R",
+      "state": "GA",
+      "twitter_handler": "@CongressmanHice"
+    }
+  },
+  {
+    "David Rouzer": {
+      "ideology": 0.9301745783520046,
+      "name": "David Rouzer",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepDavidRouzer"
+    }
+  },
+  {
+    "Steve King": {
+      "ideology": 0.9302522266981976,
+      "name": "Steve King",
+      "party": "R",
+      "state": "IA",
+      "twitter_handler": "@SteveKingIA"
+    }
+  },
+  {
+    "Mark Meadows": {
+      "ideology": 0.9361129032790676,
+      "name": "Mark Meadows",
+      "party": "R",
+      "state": "NC",
+      "twitter_handler": "@RepMarkMeadows"
+    }
+  },
+  {
+    "Phil Roe": {
+      "ideology": 0.9372360438187444,
+      "name": "Phil Roe",
+      "party": "R",
+      "state": "TN",
+      "twitter_handler": "@DrPhilRoe"
+    }
+  },
+  {
+    "Glenn Grothman": {
+      "ideology": 0.9376951199080206,
+      "name": "Glenn Grothman",
+      "party": "R",
+      "state": "WI",
+      "twitter_handler": "@RepGrothman"
+    }
+  },
+  {
+    "Doug LaMalfa": {
+      "ideology": 0.9457999804491054,
+      "name": "Doug LaMalfa",
+      "party": "R",
+      "state": "CA",
+      "twitter_handler": "@RepLaMalfa"
+    }
+  },
+  {
+    "Ralph Norman": {
+      "ideology": 0.9536261165205908,
+      "name": "Ralph Norman",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": "@RepRalphNorman"
+    }
+  },
+  {
+    "Paul Gosar": {
+      "ideology": 0.9599181167675668,
+      "name": "Paul Gosar",
+      "party": "R",
+      "state": "AZ",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Jeff Duncan": {
+      "ideology": 0.9620823070671409,
+      "name": "Jeff Duncan",
+      "party": "R",
+      "state": "SC",
+      "twitter_handler": "@RepJeffDuncan"
+    }
+  },
+  {
+    "Kevin Cramer": {
+      "ideology": 0.9707086445345952,
+      "name": "Kevin Cramer",
+      "party": "R",
+      "state": "ND",
+      "twitter_handler": "@SenKevinCramer"
+    }
+  },
+  {
+    "Brian Babin": {
+      "ideology": 0.9708942669855886,
+      "name": "Brian Babin",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": "@RepBrianBabin"
+    }
+  },
+  {
+    "Todd Rokita": {
+      "ideology": 0.9856101307685294,
+      "name": "Todd Rokita",
+      "party": "R",
+      "state": "IN",
+      "twitter_handler": ""
+    }
+  },
+  {
+    "Pete Sessions": {
+      "ideology": 1.0,
+      "name": "Pete Sessions",
+      "party": "R",
+      "state": "TX",
+      "twitter_handler": ""
+    }
+  }
+]
