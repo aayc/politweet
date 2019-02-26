@@ -13,6 +13,7 @@ python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 cd data
+mkdir tmp # this directory is gitignored so that we don't keep committing data changes.
 python3 get-tweets.py
 ```
 

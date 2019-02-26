@@ -5,13 +5,16 @@ import requests
 import sys
 import pandas as pd
 
-if len(sys.argv) < 4:
-    print("USAGE python3 merge-politician-scrape.py <senate json> <house json> <output file name>")
+if len(sys.argv) < 6:
+    print("USAGE python3 merge-politician-scrape.py <senate json> <senate csv> <house json> <house csv> <output file name>")
     sys.exit()
 
-SENATE_FILE_NAME = sys.argv[1]
-HOUSE_FILE_NAME = sys.argv[2]
-OUTPUT_FILE_NAME = sys.argv[3]
+SENATE_JSON_FILE = sys.argv[1]
+SENATE_CSV_FILE = sys.argv[2]
+HOUSE_JSON_FILE = sys.argv[3]
+HOUSE_CSV_FILE = sys.argv[4]
+OUTPUT_FILE_NAME = sys.argv[5]
+
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
@@ -50,7 +53,7 @@ def name_util(name):
 """
     Combines data from scrape, csv for house of senate.
 """
-def create_df(json_path, csv_path='senate.csv'):
+def create_df(json_path, csv_path):
     with open(json_path, "r") as f:
         crawled_data = json.loads(f.read())
 
@@ -79,7 +82,7 @@ def twitter_handler(name):
 
 def create_twitter_lookup():
     lookup = dict()
-    with open("twitter_urls.txt", "r") as f:
+    with open("stable-datasets/twitter_urls.txt", "r") as f:
         twitter_urls = f.readlines()
 
     for url in twitter_urls:
@@ -104,8 +107,8 @@ def create_twitter_lookup():
             lookup[name] = item['data-screen-name']
     return lookup
 
-senators = create_df(SENATE_FILE_NAME, csv_path='senate.csv')
-representatives = create_df(HOUSE_FILE_NAME, csv_path='house.csv')
+senators = create_df(SENATE_JSON_FILE, SENATE_CSV_FILE)
+representatives = create_df(HOUSE_JSON_FILE, HOUSE_CSV_FILE)
 congress = pd.concat([senators, representatives])
 
 twitter_lookup = create_twitter_lookup()

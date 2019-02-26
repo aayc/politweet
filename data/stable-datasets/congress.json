@@ -95,7 +95,7 @@
       "name": "Richard Durbin",
       "party": "D",
       "state": "IL",
-      "twitter_handler": ""
+      "twitter_handler": "@SenatorDurbin"
     }
   },
   {
@@ -167,7 +167,7 @@
       "name": "Christopher Murphy",
       "party": "D",
       "state": "CT",
-      "twitter_handler": ""
+      "twitter_handler": "@ChrisMurphyCT"
     }
   },
   {
@@ -194,7 +194,7 @@
       "name": "Catherine Cortez Masto",
       "party": "D",
       "state": "NV",
-      "twitter_handler": ""
+      "twitter_handler": "@CatherineForNV"
     }
   },
   {
@@ -221,7 +221,7 @@
       "name": "Benjamin Cardin",
       "party": "D",
       "state": "MD",
-      "twitter_handler": ""
+      "twitter_handler": "@SenatorCardin"
     }
   },
   {
@@ -248,7 +248,7 @@
       "name": "Thomas Carper",
       "party": "D",
       "state": "DE",
-      "twitter_handler": ""
+      "twitter_handler": "@SenatorCarper"
     }
   },
   {
@@ -374,7 +374,7 @@
       "name": "Bill Nelson",
       "party": "D",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@SenBillNelson"
     }
   },
   {
@@ -392,7 +392,7 @@
       "name": "Claire McCaskill",
       "party": "D",
       "state": "MO",
-      "twitter_handler": ""
+      "twitter_handler": "@clairecmc"
     }
   },
   {
@@ -437,7 +437,7 @@
       "name": "Heidi Heitkamp",
       "party": "D",
       "state": "ND",
-      "twitter_handler": ""
+      "twitter_handler": "@SenatorHeitkamp"
     }
   },
   {
@@ -464,7 +464,7 @@
       "name": "Joe Donnelly",
       "party": "D",
       "state": "IN",
-      "twitter_handler": ""
+      "twitter_handler": "@SenDonnelly"
     }
   },
   {
@@ -545,7 +545,7 @@
       "name": "Shelley Capito",
       "party": "R",
       "state": "WV",
-      "twitter_handler": ""
+      "twitter_handler": "@SenCapito"
     }
   },
   {
@@ -554,7 +554,7 @@
       "name": "Dan Sullivan",
       "party": "R",
       "state": "AK",
-      "twitter_handler": ""
+      "twitter_handler": "@SenDanSullivan"
     }
   },
   {
@@ -563,7 +563,7 @@
       "name": "Mitch McConnell",
       "party": "R",
       "state": "KY",
-      "twitter_handler": ""
+      "twitter_handler": "@SenateMajLdr"
     }
   },
   {
@@ -581,7 +581,7 @@
       "name": "Benjamin Sasse",
       "party": "R",
       "state": "NE",
-      "twitter_handler": ""
+      "twitter_handler": "@SenSasse"
     }
   },
   {
@@ -599,7 +599,7 @@
       "name": "Dean Heller",
       "party": "R",
       "state": "NV",
-      "twitter_handler": ""
+      "twitter_handler": "@SenDeanHeller"
     }
   },
   {
@@ -608,7 +608,7 @@
       "name": "Jeff Flake",
       "party": "R",
       "state": "AZ",
-      "twitter_handler": ""
+      "twitter_handler": "@SenFlakeStaff"
     }
   },
   {
@@ -698,7 +698,7 @@
       "name": "Michael Crapo",
       "party": "R",
       "state": "ID",
-      "twitter_handler": ""
+      "twitter_handler": "@MikeCrapo"
     }
   },
   {
@@ -734,7 +734,7 @@
       "name": "Orrin Hatch",
       "party": "R",
       "state": "UT",
-      "twitter_handler": ""
+      "twitter_handler": "@OrrinHatch"
     }
   },
   {
@@ -761,7 +761,7 @@
       "name": "James Risch",
       "party": "R",
       "state": "ID",
-      "twitter_handler": ""
+      "twitter_handler": "@SenatorRisch"
     }
   },
   {
@@ -878,7 +878,7 @@
       "name": "Michael Enzi",
       "party": "R",
       "state": "WY",
-      "twitter_handler": ""
+      "twitter_handler": "@SenatorEnzi"
     }
   },
   {
@@ -896,7 +896,7 @@
       "name": "Eleanor Norton",
       "party": "D",
       "state": "DC",
-      "twitter_handler": ""
+      "twitter_handler": "@EleanorNorton"
     }
   },
   {
@@ -909,12 +909,12 @@
     }
   },
   {
-    "Ra\u00fal Grijalva": {
+    "Raufal Grijalva": {
       "ideology": 0.05810776859081656,
-      "name": "Ra\u00fal Grijalva",
+      "name": "Raul Grijalva",
       "party": "D",
       "state": "AZ",
-      "twitter_handler": ""
+      "twitter_handler": "@RepRaulGrijalva"
     }
   },
   {
@@ -977,7 +977,7 @@
       "name": "Jim Mc Govern",
       "party": "D",
       "state": "MA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepMcGovern"
     }
   },
   {
@@ -986,7 +986,7 @@
       "name": "Jerrold Nadler",
       "party": "D",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJerryNadler"
     }
   },
   {
@@ -999,9 +999,9 @@
     }
   },
   {
-    "Jos\u00e9 Serrano": {
+    "Jose Serrano": {
       "ideology": 0.15075508735971313,
-      "name": "Jos\u00e9 Serrano",
+      "name": "Jose j",
       "party": "D",
       "state": "NY",
       "twitter_handler": "@RepJoseSerrano"
@@ -1017,18 +1017,18 @@
     }
   },
   {
-    "Luis Guti\u00e9rrez": {
+    "Luis Gutierrez": {
       "ideology": 0.15186236645269807,
-      "name": "Luis Guti\u00e9rrez",
+      "name": "Luis Gutierrez",
       "party": "D",
       "state": "IL",
-      "twitter_handler": ""
+      "twitter_handler": "@RepGutierrez"
     }
   },
   {
-    "Nanette Barrag\u00e1n": {
+    "Nanette Barragan": {
       "ideology": 0.15951019206005046,
-      "name": "Nanette Barrag\u00e1n",
+      "name": "Nanette Barragan",
       "party": "D",
       "state": "CA",
       "twitter_handler": "@RepBarragan"
@@ -1071,12 +1071,12 @@
     }
   },
   {
-    "Nydia Vel\u00e1zquez": {
+    "Nydia Velazquez": {
       "ideology": 0.17988462213251746,
-      "name": "Nydia Vel\u00e1zquez",
+      "name": "Nydia Velazquez",
       "party": "D",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@NydiaVelazquez"
     }
   },
   {
@@ -1134,9 +1134,9 @@
     }
   },
   {
-    "Andr\u00e9 Carson": {
+    "Andre Carson": {
       "ideology": 0.19265082938889647,
-      "name": "Andr\u00e9 Carson",
+      "name": "Andre Carson",
       "party": "D",
       "state": "IN",
       "twitter_handler": "@RepAndreCarson"
@@ -1157,7 +1157,7 @@
       "name": "Darren Soto",
       "party": "D",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDarrenSoto"
     }
   },
   {
@@ -1220,7 +1220,7 @@
       "name": "Donald Payne",
       "party": "D",
       "state": "NJ",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDonaldPayne"
     }
   },
   {
@@ -1283,7 +1283,7 @@
       "name": "Karen Bass",
       "party": "D",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepKarenBass"
     }
   },
   {
@@ -1301,7 +1301,7 @@
       "name": "Grace Napolitano",
       "party": "D",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@gracenapolitano"
     }
   },
   {
@@ -1373,7 +1373,7 @@
       "name": "Donald Beyer",
       "party": "D",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@repdonbeyer"
     }
   },
   {
@@ -1391,7 +1391,7 @@
       "name": "Michael Capuano",
       "party": "D",
       "state": "MA",
-      "twitter_handler": ""
+      "twitter_handler": "@mikecapuano"
     }
   },
   {
@@ -1427,7 +1427,7 @@
       "name": "Carol Shea-Porter",
       "party": "D",
       "state": "NH",
-      "twitter_handler": ""
+      "twitter_handler": "@RepSheaPorter"
     }
   },
   {
@@ -1490,7 +1490,7 @@
       "name": "Anthony Brown",
       "party": "D",
       "state": "MD",
-      "twitter_handler": ""
+      "twitter_handler": "@RepAnthonyBrown"
     }
   },
   {
@@ -1508,7 +1508,7 @@
       "name": "Niki Tsongas",
       "party": "D",
       "state": "MA",
-      "twitter_handler": ""
+      "twitter_handler": "@nikiinthehouse"
     }
   },
   {
@@ -1535,7 +1535,7 @@
       "name": "Kathy Castor",
       "party": "D",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@USRepKCastor"
     }
   },
   {
@@ -1580,7 +1580,7 @@
       "name": "Colleen Hanabusa",
       "party": "D",
       "state": "HI",
-      "twitter_handler": ""
+      "twitter_handler": "@RepHanabusa"
     }
   },
   {
@@ -1634,7 +1634,7 @@
       "name": "Eddie Johnson",
       "party": "D",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepEBJ"
     }
   },
   {
@@ -1643,7 +1643,7 @@
       "name": "Lisa Blunt Rochester",
       "party": "D",
       "state": "DE",
-      "twitter_handler": ""
+      "twitter_handler": "@LisaBRochester"
     }
   },
   {
@@ -1683,9 +1683,9 @@
     }
   },
   {
-    "Linda S\u00e1nchez": {
+    "Linda Sanchez": {
       "ideology": 0.29603665063774826,
-      "name": "Linda S\u00e1nchez",
+      "name": "Linda Sanchez",
       "party": "D",
       "state": "CA",
       "twitter_handler": "@RepLindaSanchez"
@@ -1778,7 +1778,7 @@
       "name": "Sean Maloney",
       "party": "D",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@repseanmaloney"
     }
   },
   {
@@ -1787,7 +1787,7 @@
       "name": "Ruben Kihuen",
       "party": "D",
       "state": "NV",
-      "twitter_handler": ""
+      "twitter_handler": "@RepKihuen"
     }
   },
   {
@@ -1796,7 +1796,7 @@
       "name": "Daniel Kildee",
       "party": "D",
       "state": "MI",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDanKildee"
     }
   },
   {
@@ -1832,7 +1832,7 @@
       "name": "William Keating",
       "party": "D",
       "state": "MA",
-      "twitter_handler": ""
+      "twitter_handler": "@USRepKeating"
     }
   },
   {
@@ -1904,7 +1904,7 @@
       "name": "Lacy Clay",
       "party": "D",
       "state": "MO",
-      "twitter_handler": ""
+      "twitter_handler": "@LacyClayMO1"
     }
   },
   {
@@ -1913,7 +1913,7 @@
       "name": "Joseph Kennedy",
       "party": "D",
       "state": "MA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJoeKennedy"
     }
   },
   {
@@ -1922,7 +1922,7 @@
       "name": "George Butterfield",
       "party": "D",
       "state": "NC",
-      "twitter_handler": ""
+      "twitter_handler": "@GKButterfield"
     }
   },
   {
@@ -1931,7 +1931,7 @@
       "name": "Sander Levin",
       "party": "D",
       "state": "MI",
-      "twitter_handler": ""
+      "twitter_handler": "@repsandylevin"
     }
   },
   {
@@ -1958,7 +1958,7 @@
       "name": "Matthew Cartwright",
       "party": "D",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepCartwright"
     }
   },
   {
@@ -1967,7 +1967,7 @@
       "name": "Gregorio Sablan",
       "party": "D",
       "state": "MP",
-      "twitter_handler": ""
+      "twitter_handler": "@Kilili_Sablan"
     }
   },
   {
@@ -1985,7 +1985,7 @@
       "name": "Theodore Deutch",
       "party": "D",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@RepTedDeutch"
     }
   },
   {
@@ -1994,7 +1994,7 @@
       "name": "Jim Clyburn",
       "party": "D",
       "state": "SC",
-      "twitter_handler": ""
+      "twitter_handler": "@ClyburnSC06"
     }
   },
   {
@@ -2003,7 +2003,7 @@
       "name": "Al Lawson",
       "party": "D",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@RepAlLawsonJr"
     }
   },
   {
@@ -2052,9 +2052,9 @@
     }
   },
   {
-    "Tony C\u00e1rdenas": {
+    "Tony Cardenas": {
       "ideology": 0.3365520115788244,
-      "name": "Tony C\u00e1rdenas",
+      "name": "Tony Cardenas",
       "party": "D",
       "state": "CA",
       "twitter_handler": "@RepCardenas"
@@ -2066,7 +2066,7 @@
       "name": "Gerald Connolly",
       "party": "D",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@GerryConnolly"
     }
   },
   {
@@ -2151,12 +2151,12 @@
     }
   },
   {
-    "Ben Luj\u00e1n": {
+    "Ben Lujan": {
       "ideology": 0.34843385726965426,
-      "name": "Ben Luj\u00e1n",
+      "name": "Ben Lujan",
       "party": "D",
       "state": "NM",
-      "twitter_handler": ""
+      "twitter_handler": "@repbenraylujan"
     }
   },
   {
@@ -2169,12 +2169,12 @@
     }
   },
   {
-    "Beto O\u2019Rourke": {
+    "Beto O'Rourke": {
       "ideology": 0.3560442232373668,
-      "name": "Beto O\u2019Rourke",
+      "name": "Beto O'Rourke",
       "party": "D",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepBetoORourke"
     }
   },
   {
@@ -2201,7 +2201,7 @@
       "name": "Madeleine Bordallo",
       "party": "D",
       "state": "GU",
-      "twitter_handler": ""
+      "twitter_handler": "@repbordallo"
     }
   },
   {
@@ -2219,7 +2219,7 @@
       "name": "Elizabeth Esty",
       "party": "D",
       "state": "CT",
-      "twitter_handler": ""
+      "twitter_handler": "@RepEsty"
     }
   },
   {
@@ -2237,7 +2237,7 @@
       "name": "Richard Nolan",
       "party": "D",
       "state": "MN",
-      "twitter_handler": ""
+      "twitter_handler": "@USRepRickNolan"
     }
   },
   {
@@ -2255,7 +2255,7 @@
       "name": "Joseph Morelle",
       "party": "D",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJoeMorelle"
     }
   },
   {
@@ -2345,7 +2345,7 @@
       "name": "James Himes",
       "party": "D",
       "state": "CT",
-      "twitter_handler": ""
+      "twitter_handler": "@jahimes"
     }
   },
   {
@@ -2372,7 +2372,7 @@
       "name": "Luis Correa",
       "party": "D",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@LuisCorreaaa"
     }
   },
   {
@@ -2390,7 +2390,7 @@
       "name": "Filemon Vela",
       "party": "D",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepFilemonVela"
     }
   },
   {
@@ -2408,7 +2408,7 @@
       "name": "Peter Visclosky",
       "party": "D",
       "state": "IN",
-      "twitter_handler": ""
+      "twitter_handler": "@RepVisclosky"
     }
   },
   {
@@ -2417,7 +2417,7 @@
       "name": "Mary Scanlon",
       "party": "D",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@marygayscanlon"
     }
   },
   {
@@ -2444,7 +2444,7 @@
       "name": "Thomas Suozzi",
       "party": "D",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@RepTomSuozzi"
     }
   },
   {
@@ -2471,7 +2471,7 @@
       "name": "Ann Kuster",
       "party": "D",
       "state": "NH",
-      "twitter_handler": ""
+      "twitter_handler": "@RepAnnieKuster"
     }
   },
   {
@@ -2525,7 +2525,7 @@
       "name": "Bradley Schneider",
       "party": "D",
       "state": "IL",
-      "twitter_handler": ""
+      "twitter_handler": "@RepSchneider"
     }
   },
   {
@@ -2552,7 +2552,7 @@
       "name": "Brenda Jones",
       "party": "D",
       "state": "MI",
-      "twitter_handler": ""
+      "twitter_handler": "@VoteBrendaJones"
     }
   },
   {
@@ -2588,7 +2588,7 @@
       "name": "Timothy Walz",
       "party": "D",
       "state": "MN",
-      "twitter_handler": ""
+      "twitter_handler": "@RepTimWalz"
     }
   },
   {
@@ -2597,7 +2597,7 @@
       "name": "Paul Ryan",
       "party": "R",
       "state": "WI",
-      "twitter_handler": ""
+      "twitter_handler": "@SpeakerRyan"
     }
   },
   {
@@ -2606,7 +2606,7 @@
       "name": "David Loebsack",
       "party": "D",
       "state": "IA",
-      "twitter_handler": ""
+      "twitter_handler": "@daveloebsack"
     }
   },
   {
@@ -2633,16 +2633,16 @@
       "name": "John Delaney",
       "party": "D",
       "state": "MD",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJohnDelaney"
     }
   },
   {
-    "Tom O\u2019Halleran": {
+    "Tom O'Halleran": {
       "ideology": 0.4900733176231379,
-      "name": "Tom O\u2019Halleran",
+      "name": "Tom O'Halleran",
       "party": "D",
       "state": "AZ",
-      "twitter_handler": ""
+      "twitter_handler": "@RepOHalleran"
     }
   },
   {
@@ -2723,7 +2723,7 @@
       "name": "Ileana Ros-Lehtinen",
       "party": "R",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@RosLehtinen"
     }
   },
   {
@@ -2768,16 +2768,16 @@
       "name": "Scott Taylor",
       "party": "R",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@Scotttaylorva"
     }
   },
   {
-    "Jenniffer Gonz\u00e1lez-Col\u00f3n": {
+    "Jenniffer Gonzalez-Colon": {
       "ideology": 0.6020535016007562,
-      "name": "Jenniffer Gonz\u00e1lez-Col\u00f3n",
+      "name": "Jenniffer Gonzalez-Colon",
       "party": "R",
       "state": "PR",
-      "twitter_handler": ""
+      "twitter_handler": "@repjenniffer"
     }
   },
   {
@@ -2813,7 +2813,7 @@
       "name": "Trey Gowdy",
       "party": "R",
       "state": "SC",
-      "twitter_handler": ""
+      "twitter_handler": "@tgowdysc"
     }
   },
   {
@@ -2858,7 +2858,7 @@
       "name": "Aumua Amata",
       "party": "R",
       "state": "AS",
-      "twitter_handler": ""
+      "twitter_handler": "@RepAmata"
     }
   },
   {
@@ -2885,7 +2885,7 @@
       "name": "Ed Royce",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepEdRoyc"
     }
   },
   {
@@ -2903,7 +2903,7 @@
       "name": "Mark Sanford",
       "party": "R",
       "state": "SC",
-      "twitter_handler": ""
+      "twitter_handler": "@RepSanfordSC"
     }
   },
   {
@@ -2921,7 +2921,7 @@
       "name": "Mac Thornberry",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@MacTXPress"
     }
   },
   {
@@ -2948,7 +2948,7 @@
       "name": "Leonard Lance",
       "party": "R",
       "state": "NJ",
-      "twitter_handler": ""
+      "twitter_handler": "@RepLanceNJ7"
     }
   },
   {
@@ -2957,7 +2957,7 @@
       "name": "Dana Rohrabacher",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@DanaRohrabache"
     }
   },
   {
@@ -2975,7 +2975,7 @@
       "name": "Tom MacArthur",
       "party": "R",
       "state": "NJ",
-      "twitter_handler": ""
+      "twitter_handler": "@RepTomMacArthur"
     }
   },
   {
@@ -2984,7 +2984,7 @@
       "name": "Jason Lewis",
       "party": "R",
       "state": "MN",
-      "twitter_handler": ""
+      "twitter_handler": "@SenJasonLewis"
     }
   },
   {
@@ -2993,7 +2993,7 @@
       "name": "Daniel Donovan",
       "party": "R",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDanDonovan"
     }
   },
   {
@@ -3011,7 +3011,7 @@
       "name": "Darrell Issa",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@TeamIssa"
     }
   },
   {
@@ -3038,7 +3038,7 @@
       "name": "Bill Shuster",
       "party": "R",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@ShusterForPA9"
     }
   },
   {
@@ -3065,7 +3065,7 @@
       "name": "Jeff Denham",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@JeffDenham"
     }
   },
   {
@@ -3092,16 +3092,16 @@
       "name": "Mimi Walters",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@MimiWaltersCA"
     }
   },
   {
-    "Ra\u00fal Labrador": {
+    "Raul Labrador": {
       "ideology": 0.6732160080661004,
-      "name": "Ra\u00fal Labrador",
+      "name": "Raul Labrador",
       "party": "R",
       "state": "ID",
-      "twitter_handler": ""
+      "twitter_handler": "@Raul_Labrador"
     }
   },
   {
@@ -3155,7 +3155,7 @@
       "name": "Joe Barton",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJoeBarton"
     }
   },
   {
@@ -3182,7 +3182,7 @@
       "name": "Steve Russell",
       "party": "R",
       "state": "OK",
-      "twitter_handler": ""
+      "twitter_handler": "@RepRussel"
     }
   },
   {
@@ -3227,7 +3227,7 @@
       "name": "Mia Love",
       "party": "R",
       "state": "UT",
-      "twitter_handler": ""
+      "twitter_handler": "@MiaBLove"
     }
   },
   {
@@ -3236,7 +3236,7 @@
       "name": "John Faso",
       "party": "R",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJohnFaso"
     }
   },
   {
@@ -3290,7 +3290,7 @@
       "name": "John Carter",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJohnCarter"
     }
   },
   {
@@ -3308,7 +3308,7 @@
       "name": "Cathy McMorris Rodgers",
       "party": "R",
       "state": "WA",
-      "twitter_handler": ""
+      "twitter_handler": "@cathymcmorris"
     }
   },
   {
@@ -3335,7 +3335,7 @@
       "name": "Steve Knight",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@SteveKnight25"
     }
   },
   {
@@ -3344,7 +3344,7 @@
       "name": "Collin Peterson",
       "party": "D",
       "state": "MN",
-      "twitter_handler": ""
+      "twitter_handler": "@collinpeterson"
     }
   },
   {
@@ -3353,7 +3353,7 @@
       "name": "Jack Bergman",
       "party": "R",
       "state": "MI",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJackBergman"
     }
   },
   {
@@ -3380,7 +3380,7 @@
       "name": "Erik Paulsen",
       "party": "R",
       "state": "MN",
-      "twitter_handler": ""
+      "twitter_handler": "@Erik_Paulsen"
     }
   },
   {
@@ -3389,7 +3389,7 @@
       "name": "Michael Conaway",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@ConawayTX11"
     }
   },
   {
@@ -3416,7 +3416,7 @@
       "name": "Rod Blum",
       "party": "R",
       "state": "IA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepRodBlum"
     }
   },
   {
@@ -3452,7 +3452,7 @@
       "name": "Sam Graves",
       "party": "R",
       "state": "MO",
-      "twitter_handler": ""
+      "twitter_handler": "@repsamgraves"
     }
   },
   {
@@ -3461,7 +3461,7 @@
       "name": "Mark Amodei",
       "party": "R",
       "state": "NV",
-      "twitter_handler": ""
+      "twitter_handler": "@MarkAmodeiNV2"
     }
   },
   {
@@ -3470,7 +3470,7 @@
       "name": "Carlos Curbelo",
       "party": "R",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@carloslcurbelo"
     }
   },
   {
@@ -3479,7 +3479,7 @@
       "name": "Kevin Yoder",
       "party": "R",
       "state": "KS",
-      "twitter_handler": ""
+      "twitter_handler": "@kevinyoder"
     }
   },
   {
@@ -3488,7 +3488,7 @@
       "name": "Barbara Comstock",
       "party": "R",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@BarbaraComstock"
     }
   },
   {
@@ -3497,7 +3497,7 @@
       "name": "David Joyce",
       "party": "R",
       "state": "OH",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDaveJoyce"
     }
   },
   {
@@ -3506,7 +3506,7 @@
       "name": "Michael Turner",
       "party": "R",
       "state": "OH",
-      "twitter_handler": ""
+      "twitter_handler": "@RepMikeTurner"
     }
   },
   {
@@ -3515,7 +3515,7 @@
       "name": "Thomas Rooney",
       "party": "R",
       "state": "FL",
-      "twitter_handler": ""
+      "twitter_handler": "@TomRooney"
     }
   },
   {
@@ -3578,7 +3578,7 @@
       "name": "Greg Gianforte",
       "party": "R",
       "state": "MT",
-      "twitter_handler": ""
+      "twitter_handler": "@GregForMontana"
     }
   },
   {
@@ -3587,7 +3587,7 @@
       "name": "Michael Burgess",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@michaelcburgess"
     }
   },
   {
@@ -3596,7 +3596,7 @@
       "name": "Jimmy Duncan",
       "party": "R",
       "state": "TN",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJohnDuncanJr"
     }
   },
   {
@@ -3632,7 +3632,7 @@
       "name": "Bob Goodlatte",
       "party": "R",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepGoodlatte"
     }
   },
   {
@@ -3668,7 +3668,7 @@
       "name": "Jeb Hensarling",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepHensarling"
     }
   },
   {
@@ -3776,7 +3776,7 @@
       "name": "Rodney Davis",
       "party": "R",
       "state": "IL",
-      "twitter_handler": ""
+      "twitter_handler": "@RodneyDavis"
     }
   },
   {
@@ -3785,7 +3785,7 @@
       "name": "Bruce Poliquin",
       "party": "R",
       "state": "ME",
-      "twitter_handler": ""
+      "twitter_handler": "@RepPoliquin"
     }
   },
   {
@@ -3839,7 +3839,7 @@
       "name": "Diane Black",
       "party": "R",
       "state": "TN",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDianeBlack"
     }
   },
   {
@@ -3866,7 +3866,7 @@
       "name": "Larry Bucshon",
       "party": "R",
       "state": "IN",
-      "twitter_handler": ""
+      "twitter_handler": "@RepLarryBucshon"
     }
   },
   {
@@ -3911,7 +3911,7 @@
       "name": "Claudia Tenney",
       "party": "R",
       "state": "NY",
-      "twitter_handler": ""
+      "twitter_handler": "@claudiatenney"
     }
   },
   {
@@ -3938,7 +3938,7 @@
       "name": "Sam Johnson",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@SamsPressShop"
     }
   },
   {
@@ -3965,7 +3965,7 @@
       "name": "Scott Perry",
       "party": "R",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepScottPerry"
     }
   },
   {
@@ -4001,7 +4001,7 @@
       "name": "David Valadao",
       "party": "R",
       "state": "CA",
-      "twitter_handler": ""
+      "twitter_handler": "@repdavidvaladao"
     }
   },
   {
@@ -4010,7 +4010,7 @@
       "name": "Mike Coffman",
       "party": "R",
       "state": "CO",
-      "twitter_handler": ""
+      "twitter_handler": "@RepMikeCoffman"
     }
   },
   {
@@ -4019,7 +4019,7 @@
       "name": "James Sensenbrenner",
       "party": "R",
       "state": "WI",
-      "twitter_handler": ""
+      "twitter_handler": "@RpSensenbrenner"
     }
   },
   {
@@ -4028,7 +4028,7 @@
       "name": "Robert Wittman",
       "party": "R",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@RobWittman"
     }
   },
   {
@@ -4046,7 +4046,7 @@
       "name": "Kristi Noem",
       "party": "R",
       "state": "SD",
-      "twitter_handler": ""
+      "twitter_handler": "@KristiNoem"
     }
   },
   {
@@ -4055,7 +4055,7 @@
       "name": "John Culberson",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@johnculberson"
     }
   },
   {
@@ -4064,7 +4064,7 @@
       "name": "Ted Poe",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@JudgeTedPoe"
     }
   },
   {
@@ -4082,7 +4082,7 @@
       "name": "Randy Hultgren",
       "party": "R",
       "state": "IL",
-      "twitter_handler": ""
+      "twitter_handler": "@RepHultgren"
     }
   },
   {
@@ -4100,7 +4100,7 @@
       "name": "Keith Rothfus",
       "party": "R",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@KeithRothfus"
     }
   },
   {
@@ -4109,7 +4109,7 @@
       "name": "Jodey Arrington",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepArrington"
     }
   },
   {
@@ -4136,7 +4136,7 @@
       "name": "Thomas Garrett",
       "party": "R",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepTomGarrett"
     }
   },
   {
@@ -4154,7 +4154,7 @@
       "name": "Robert Latta",
       "party": "R",
       "state": "OH",
-      "twitter_handler": ""
+      "twitter_handler": "@BobLatta"
     }
   },
   {
@@ -4163,7 +4163,7 @@
       "name": "Gregg Harper",
       "party": "R",
       "state": "MS",
-      "twitter_handler": ""
+      "twitter_handler": "@GreggHarper"
     }
   },
   {
@@ -4253,7 +4253,7 @@
       "name": "David Young",
       "party": "R",
       "state": "IA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepDavidYoung"
     }
   },
   {
@@ -4343,7 +4343,7 @@
       "name": "James Renacci",
       "party": "R",
       "state": "OH",
-      "twitter_handler": ""
+      "twitter_handler": "@RepJimRenacci"
     }
   },
   {
@@ -4370,7 +4370,7 @@
       "name": "Lou Barletta",
       "party": "R",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@RepLouBarletta"
     }
   },
   {
@@ -4379,7 +4379,7 @@
       "name": "Glenn Thompson",
       "party": "R",
       "state": "PA",
-      "twitter_handler": ""
+      "twitter_handler": "@CongressmanGT"
     }
   },
   {
@@ -4433,7 +4433,7 @@
       "name": "Andy Harris",
       "party": "R",
       "state": "MD",
-      "twitter_handler": ""
+      "twitter_handler": "@RepAndyHarrisMD"
     }
   },
   {
@@ -4451,7 +4451,7 @@
       "name": "Steve Pearce",
       "party": "R",
       "state": "NM",
-      "twitter_handler": ""
+      "twitter_handler": "@Pearce4NM"
     }
   },
   {
@@ -4505,7 +4505,7 @@
       "name": "Dave Brat",
       "party": "R",
       "state": "VA",
-      "twitter_handler": ""
+      "twitter_handler": "@DaveBratVA7th"
     }
   },
   {
@@ -4613,7 +4613,7 @@
       "name": "Jim Banks",
       "party": "R",
       "state": "IN",
-      "twitter_handler": ""
+      "twitter_handler": "@Jim_Banks"
     }
   },
   {
@@ -4622,7 +4622,7 @@
       "name": "Bill Flores",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@RepBillFlores"
     }
   },
   {
@@ -4640,7 +4640,7 @@
       "name": "Lamar Smith",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@LamarSmithTX21"
     }
   },
   {
@@ -4667,7 +4667,7 @@
       "name": "Robert Pittenger",
       "party": "R",
       "state": "NC",
-      "twitter_handler": ""
+      "twitter_handler": "@RepPittenger"
     }
   },
   {
@@ -4676,7 +4676,7 @@
       "name": "Mike Bishop",
       "party": "R",
       "state": "MI",
-      "twitter_handler": ""
+      "twitter_handler": "@MikeBishopMI"
     }
   },
   {
@@ -4784,7 +4784,7 @@
       "name": "Paul Gosar",
       "party": "R",
       "state": "AZ",
-      "twitter_handler": ""
+      "twitter_handler": "@repgosar"
     }
   },
   {
@@ -4820,7 +4820,7 @@
       "name": "Todd Rokita",
       "party": "R",
       "state": "IN",
-      "twitter_handler": ""
+      "twitter_handler": "@ToddRokita"
     }
   },
   {
@@ -4829,7 +4829,7 @@
       "name": "Pete Sessions",
       "party": "R",
       "state": "TX",
-      "twitter_handler": ""
+      "twitter_handler": "@PeteSessions"
     }
   }
 ]
