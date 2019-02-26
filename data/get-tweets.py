@@ -1,6 +1,14 @@
 import twitter
 import os
 import json
+import sys
+
+if len(sys.argv) < 3:
+    print("USAGE: python3 get-tweets.py <twitter-handle e.g. @AOC> <output file name>")
+    sys.exit()
+
+TWITTER_HANDLE = sys.argv[1]
+OUTPUT_FILE_NAME = sys.argv[2]
 
 """
     Gets tweets for a given twitter user. 
@@ -50,15 +58,15 @@ api = twitter.Api(consumer_key = keys["consumer_api_key"],
                   access_token_secret = keys["access_token_secret"])
 
 # Example of how to get tweets!
-name = '@AOC'
-items = get_tweets(name, 250)
+items = get_tweets(TWITTER_HANDLE, 250)
 
+'''
 # Print tweets to file, (for debugging)
 with open("tmp/tweets.txt", 'w') as f:
     for t in items:
         f.write(t['text'])
         f.write('\n\n')
-
+'''
 # Print tweets to file, (for debugging)
-with open("tmp/AOC.json", 'w') as f:
+with open(OUTPUT_FILE_NAME, 'w') as f:
     f.write(json.dumps(items))

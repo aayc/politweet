@@ -2,7 +2,16 @@ from bs4 import BeautifulSoup
 
 import json
 import requests
+import sys
 import pandas as pd
+
+if len(sys.argv) < 4:
+    print("USAGE python3 merge-politician-scrape.py <senate json> <house json> <output file name>")
+    sys.exit()
+
+SENATE_FILE_NAME = sys.argv[1]
+HOUSE_FILE_NAME = sys.argv[2]
+OUTPUT_FILE_NAME = sys.argv[3]
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
@@ -41,13 +50,13 @@ def name_util(name):
 """
     Combines data from scrape, csv for house of senate.
 """
-def create_df(path1='senate.json', path2='senate.csv'):
-    with open(path1, "r") as f:
+def create_df(json_path, csv_path='senate.csv'):
+    with open(json_path, "r") as f:
         crawled_data = json.loads(f.read())
 
     crawled_data.reverse()
 
-    frame = pd.read_csv(path2)
+    frame = pd.read_csv(csv_path)
     frame = frame.drop(['rank_from_low', 'rank_from_high', 'percentile', 'id', 'bioguide_id', 'district'], axis=1)
     frame['party'] = ''
 
@@ -95,8 +104,8 @@ def create_twitter_lookup():
             lookup[name] = item['data-screen-name']
     return lookup
 
-senators = create_df(path1 = 'senate.json', path2='senate.csv')
-representatives = create_df(path1 = 'house.json', path2='house.csv')
+senators = create_df(SENATE_FILE_NAME, csv_path='senate.csv')
+representatives = create_df(HOUSE_FILE_NAME, csv_path='house.csv')
 congress = pd.concat([senators, representatives])
 
 twitter_lookup = create_twitter_lookup()
@@ -107,15 +116,15 @@ print(congress.columns)
 print(twitter_lookup)
 
 # Save to json.
-with open("congress.json", "w") as f:
+with open(OUTPUT_FILE_NAME, "w") as f:
     data = []
     for jdict in congress.to_dict(orient='records'):
         data.append({jdict['name']: jdict})
     f.write(json.dumps(data, indent=2, sort_keys=True))
 
 # Save to csv.
-with open("congress.csv", "w") as f:
-    congress.to_csv(f)
+#with open("congress.csv", "w") as f:
+#    congress.to_csv(f)
 
-with open("needTwitterHandlers", "w") as f:
-    f.write(json.dumps(missing_handlers, indent=True, sort_keys=True))
+#with open("needTwitterHandlers", "w") as f:
+#    f.write(json.dumps(missing_handlers, indent=True, sort_keys=True))

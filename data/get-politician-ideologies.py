@@ -1,8 +1,14 @@
 import requests
+import json
+import sys
 from bs4 import BeautifulSoup
 
+if len(sys.argv) < 3:
+    print("Usage: python3 get-politician-ideologies.py <house|senate> <output-file.json>")
+    sys.exit()
+
 # Put report card URLS from govtrack.us below
-url = 'https://www.govtrack.us/congress/members/report-cards/2018/senate/ideology'
+url = 'https://www.govtrack.us/congress/members/report-cards/2018/' + sys.argv[1] + '/ideology'
 page = requests.get(url)
 soup = BeautifulSoup(page.text, 'html.parser')
 rows = soup.find_all('tr')
@@ -29,4 +35,6 @@ for row in rows:
         cols.append(party)
         cols.append(state)
         data.append([ele for ele in cols]) 
-print(data)
+
+with open(sys.argv[2], "w+") as f:
+    f.write(json.dumps(data, indent = 4, separators = (',', ': ')))
