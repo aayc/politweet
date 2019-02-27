@@ -3,12 +3,22 @@ import os
 import json
 import sys
 
+
 if len(sys.argv) < 3:
-    print("USAGE: python3 get-tweets.py <twitter-handle e.g. @AOC> <output file name>")
+    print("USAGE: python3 get-tweets.py <congress json file> <output file name>")
     sys.exit()
 
-TWITTER_HANDLE = sys.argv[1]
+CONGRESS_FILE_NAME = sys.argv[1]
 OUTPUT_FILE_NAME = sys.argv[2]
+
+# Retrieve Twitter handles from congress json file
+handles = []
+with open(CONGRESS_FILE_NAME, "r") as f:
+    congress = json.load(f)
+    handles = []
+    for o in congress:
+        for k, v in o.items():
+            handles.append(v["twitter_handler"])
 
 """
     Gets tweets for a given twitter user. 
@@ -57,8 +67,7 @@ api = twitter.Api(consumer_key = keys["consumer_api_key"],
                   access_token_key = keys["access_token"],
                   access_token_secret = keys["access_token_secret"])
 
-# Example of how to get tweets!
-items = get_tweets(TWITTER_HANDLE, 250)
+results = { handle: get_tweets(handle, 250) for handle in handles[0:3] }
 
 '''
 # Print tweets to file, (for debugging)
@@ -69,4 +78,4 @@ with open("tmp/tweets.txt", 'w') as f:
 '''
 # Print tweets to file, (for debugging)
 with open(OUTPUT_FILE_NAME, 'w') as f:
-    f.write(json.dumps(items))
+    f.write(json.dumps(results))
