@@ -4,12 +4,14 @@ import json
 import sys
 
 
-if len(sys.argv) < 3:
-    print("USAGE: python3 get-tweets.py <congress json file> <output file name>")
+if len(sys.argv) < 5:
+    print("USAGE: python3 get-tweets.py <start> <end> <congress json file> <output file name>")
     sys.exit()
 
-CONGRESS_FILE_NAME = sys.argv[1]
-OUTPUT_FILE_NAME = sys.argv[2]
+START_HANDLE_IX = int(sys.argv[1])
+END_HANDLE_IX = int(sys.argv[2])
+CONGRESS_FILE_NAME = sys.argv[3]
+OUTPUT_FILE_NAME = sys.argv[4]
 
 # Retrieve Twitter handles from congress json file
 handles = []
@@ -69,9 +71,8 @@ api = twitter.Api(consumer_key = keys["consumer_api_key"],
 
 
 results = {}
-START = 30
-END = 45
-for i in range(START, END):
+
+for i in range(START_HANDLE_IX, END_HANDLE_IX):
     handle = handles[i]
     print(handle, i,"/",len(handles))
     results[handle] = get_tweets(handle, 250)
