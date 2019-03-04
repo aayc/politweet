@@ -67,7 +67,14 @@ api = twitter.Api(consumer_key = keys["consumer_api_key"],
                   access_token_key = keys["access_token"],
                   access_token_secret = keys["access_token_secret"])
 
-results = { handle: get_tweets(handle, 250) for handle in handles[0:3] }
+
+results = {}
+START = 30
+END = 45
+for i in range(START, END):
+    handle = handles[i]
+    print(handle, i,"/",len(handles))
+    results[handle] = get_tweets(handle, 250)
 
 '''
 # Print tweets to file, (for debugging)
