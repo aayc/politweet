@@ -46,5 +46,6 @@ for twitter_handle in full_dataset.keys():
 
     output.append(politician)
 
-
+with open(OUTPUT_FILE_NAME, "w") as f:
+   f.write(json.dumps(output)) 
 
