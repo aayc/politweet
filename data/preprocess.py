@@ -1,5 +1,6 @@
 import json
 import sys
+import re
 
 if len(sys.argv) < 4:
     print("USAGE <input-tweets.json> <input-congress.json> <out.json>")
@@ -40,7 +41,14 @@ for twitter_handle in full_dataset.keys():
     for tweet in full_dataset[twitter_handle]:
         if not all([f in tweet for f in features]):
             continue
-        tweet["text"] = tweet["text"] # TODO remove http links, remove hash tags from text
+
+        # Clean up the tweets!
+        string = str(tweet["text"].replace("\u00a0\u2026", ""))  # weird tags at the end of tweets, not adding information.
+        url_pattern = '(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,}|pic\.[a-zA-Z0-9]+\.[^\s]{2,})'
+        string = re.sub(url_pattern, '', string)
+        # TODO: Remove hash tags by looking at hash tag param in text and remove #TheText + any punctuation?
+        tweet["text"] = string
+
         politician["tweets"].append([tweet[f] for f in features])
         politician["ideology"] = ideologies[twitter_handle]
 
