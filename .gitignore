@@ -1,6 +1,9 @@
 .DS_Store
+*.swp
 env/
 data/tmp/
 keys/
 analysis/doc_models/
+data/doc_models/
 analysis/__pycache__
+data/__pycache__

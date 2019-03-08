@@ -18,7 +18,16 @@ python3 get-tweets.py
 ```
 
 ## Doc2Vec Wikipedia Model
-Download and untar the archive found [here](https://ibm.ent.box.com/s/3f160t4xpuya9an935k84ig465gvymm2), then store the model as `analysis/doc\_models/enwiki_dbow/doc2vec.bin`.  Execute `tests/test-doc-model.py` to verify that the model is saved to the right location.
+Download and untar the archive found [here](https://ibm.ent.box.com/s/3f160t4xpuya9an935k84ig465gvymm2), then store the model as `data/doc\_models/enwiki_dbow/doc2vec.bin`.  Execute `tests/test-doc-model.py` to verify that the model is saved to the right location.
+
+# Preprocessing Data
+You will need:
+
+* a sample dataset from the tweet scrape (the scrape takes really long, so download it from the Google Drive folder)
+* the congress.json information file (located in stable-datasets/, committed)
+* the doc2vec model (see under installation and setup)
+
+Run `python3 preprocess.py <tweets file, like stable-datasets/3-4-2019-0-537.json> <congress file, like stable-datasets/congress.json> <OUTPUT FILE NAME.json>`
 
 # Authors
 Aaron Chan, Austin Kolander, Jonathan Dutson, Andrew Tate

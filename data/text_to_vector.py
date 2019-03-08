@@ -5,7 +5,7 @@ from gensim.models.keyedvectors import Doc2VecKeyedVectors
 
 doc_model = None
 
-def load_doc_model (fname):
+def load_doc_model (fname = "doc_models/enwiki_dbow/doc2vec.bin"):
     global doc_model
     doc_model = Doc2Vec.load(fname)
 
