@@ -38,7 +38,7 @@ features = ["id", "favorite_count", "text", "hashtags"]
 # [0:537] list of { twitter_handle, tweets: [{ features } x 250], ideology rating: }
 total_progress = len(list(full_dataset.keys()))
 progress = 0
-for twitter_handle in list(full_dataset.keys())[0:4]:
+for twitter_handle in full_dataset.keys():
     progress += 1
     print("PROGRESS: ", progress, total_progress)
 
@@ -85,8 +85,5 @@ for twitter_handle in list(full_dataset.keys())[0:4]:
     '''
 
 df = pd.DataFrame(output)
-
-with open(OUTPUT_FILE_NAME, "w") as f:
-   #f.write(json.dumps(output)) 
-   df.to_csv("test.csv")
+df.to_csv(OUTPUT_FILE_NAME)
 
