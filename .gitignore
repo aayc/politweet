@@ -7,3 +7,5 @@ analysis/doc_models/
 data/doc_models/
 analysis/__pycache__
 data/__pycache__
+.vscode/
+*.pyc
