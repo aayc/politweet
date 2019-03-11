@@ -2,6 +2,7 @@ import json
 import sys
 import re
 import text_to_vector
+import pandas as pd
 
 
 if len(sys.argv) < 4:
@@ -37,9 +38,31 @@ features = ["id", "favorite_count", "text", "hashtags"]
 # [0:537] list of { twitter_handle, tweets: [{ features } x 250], ideology rating: }
 total_progress = len(list(full_dataset.keys()))
 progress = 0
-for twitter_handle in full_dataset.keys():
+for twitter_handle in list(full_dataset.keys())[0:4]:
     progress += 1
     print("PROGRESS: ", progress, total_progress)
+
+    for tweet in full_dataset[twitter_handle]:
+        if not all([f in tweet for f in features]):
+            continue
+
+        d = {}
+
+        # Clean up the tweets!
+        string = str(tweet["text"].replace("\u00a0\u2026", ""))  # weird tags at the end of tweets, not adding information.
+        url_pattern = '(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,}|pic\.[a-zA-Z0-9]+\.[^\s]{2,})'
+        string = re.sub(url_pattern, '', string)
+        # TODO: Remove hash tags by looking at hash tag param in text and remove #TheText + any punctuation?
+
+        ls = text_to_vector.infer(string.split(" ")).tolist() # TODO remove stop words?
+        for i in range(len(ls)):
+            d["x" + str(i)] = ls[i]
+
+        d["ideology"] = ideologies[twitter_handle]
+        output.append(d)
+
+    '''
+    # OLD VERSION OF PREPROCESSING 
     politician = {}
     politician["twitter_handle"] = twitter_handle
     politician["tweets"] = []
@@ -54,12 +77,16 @@ for twitter_handle in full_dataset.keys():
         # TODO: Remove hash tags by looking at hash tag param in text and remove #TheText + any punctuation?
 
         tweet["text"] = string
-        tweet["vector"] = text_to_vector.infer(string.split(" ")).tolist() # TODO remove stop words?
+        tweet["vector"] = "hello"#text_to_vector.infer(string.split(" ")).tolist() # TODO remove stop words?
         politician["tweets"].append([tweet[f] for f in features] + [tweet["vector"]])
         politician["ideology"] = ideologies[twitter_handle]
 
     output.append(politician)
+    '''
+
+df = pd.DataFrame(output)
 
 with open(OUTPUT_FILE_NAME, "w") as f:
-   f.write(json.dumps(output)) 
+   #f.write(json.dumps(output)) 
+   df.to_csv("test.csv")
 
