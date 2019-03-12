@@ -1,4 +1,5 @@
 import numpy as np
+import sys
 import pandas as pd
 import time
 import scipy.stats as stats
@@ -12,18 +13,34 @@ from models.mlp import MLPLearner
 from models.svm import SVMLearner
 
 models = [
-    {
-        'name': 'Support Vector Machine',
-        'instance': SVMLearner()
-    },
+    #{
+    #    'name': 'Support Vector Machine',
+    #    'instance': SVMLearner()
+    #},
     {
         'name': 'Multilayer Perceptron',
         'instance': MLPLearner()
     }
 ]
 
+def unison_shuffled_copies(a, b):
+    assert len(a) == len(b)
+    p = np.random.permutation(len(a))
+    return a[p], b[p]
+
 iris = datasets.load_iris()
-features, labels = StandardScaler().fit_transform(iris.data), iris.target
+data = pd.DataFrame.from_csv("data/tmp/test.csv")
+targets = data["ideology"].values
+inputs = data[["x" + str(i) for i in range(300)]].values
+
+unison_shuffled_copies(inputs, targets)
+inputs = inputs[1:10, :]
+targets = targets[1:10, :]
+
+print("iunput type: ", type(inputs), "length: ", len(inputs))
+
+sys.exit(0)
+features, labels = StandardScaler().fit_transform(inputs), target
 
 # Split into train and test features
 features_train, features_test, labels_train, labels_test = sklearn.model_selection.train_test_split(features, labels, test_size = 0.33, random_state = 5)
