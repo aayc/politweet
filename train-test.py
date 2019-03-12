@@ -31,7 +31,7 @@ features_train, features_test, labels_train, labels_test = sklearn.model_selecti
 for model in models:
     print('------------------------------------------------')
     name = model['name']
-    print(f'Model: {name}')
+    print('Model: %s' % (name))
     print('Training...')
 
     start_time = time.clock()
@@ -42,7 +42,7 @@ for model in models:
 
     labels_pred = model['instance'].predict(features_test)
     mse = sklearn.metrics.mean_squared_error(labels_test, labels_pred)
-    print(f'MSE: {mse}')
+    print('MSE: %s' % (mse))
     model['mse'] = mse
 
 plt.bar(
