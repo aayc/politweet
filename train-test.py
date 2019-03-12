@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import sklearn.model_selection
 from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
+from sklearn.utils import shuffle
 
 # Models
 from models.mlp import MLPLearner
@@ -23,24 +24,19 @@ models = [
     }
 ]
 
-def unison_shuffled_copies(a, b):
-    assert len(a) == len(b)
-    p = np.random.permutation(len(a))
-    return a[p], b[p]
-
 iris = datasets.load_iris()
 data = pd.DataFrame.from_csv("data/tmp/test.csv")
+# data = data.sample(frac=0.02)
+print(data.shape)
+data = data.sample(frac=.1)
 targets = data["ideology"].values
+targets = np.rint(targets) # round to nearest integer, so we can classify
+# unique, counts = np.unique(targets, return_counts=True)
+# counters = dict(zip(unique, counts))
+# print(counters)
+
 inputs = data[["x" + str(i) for i in range(300)]].values
-
-unison_shuffled_copies(inputs, targets)
-inputs = inputs[1:10, :]
-targets = targets[1:10, :]
-
-print("iunput type: ", type(inputs), "length: ", len(inputs))
-
-sys.exit(0)
-features, labels = StandardScaler().fit_transform(inputs), target
+features, labels = StandardScaler().fit_transform(inputs), targets
 
 # Split into train and test features
 features_train, features_test, labels_train, labels_test = sklearn.model_selection.train_test_split(features, labels, test_size = 0.33, random_state = 5)
@@ -61,6 +57,9 @@ for model in models:
     mse = sklearn.metrics.mean_squared_error(labels_test, labels_pred)
     print('MSE: %s' % (mse))
     model['mse'] = mse
+    accuracy = sklearn.metrics.accuracy_score(labels_test, labels_pred)
+    print('Accuracy: %s' % (accuracy))
+
 
 plt.bar(
     np.arange(len(models)),
