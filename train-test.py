@@ -9,15 +9,23 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
 from sklearn.utils import shuffle
 
+DATA_FILE = sys.argv[1] if len(sys.argv) > 1 else "data/tmp/test.csv"
+DATA_SAMPLE_PERC = float(sys.argv[2]) if len(sys.argv) > 2 else 1
+print(DATA_SAMPLE_PERC)
+
+print("USING DATA FILE", DATA_FILE, "with", DATA_SAMPLE_PERC*100, "% OF THE DATA")
+print("(to change this, usage: <data-file> <percentage e.g. 0.3, 0.5, or 1>")
+
+
 # Models
 from models.mlp import MLPLearner
 from models.svm import SVMLearner
 
 models = [
-    #{
-    #    'name': 'Support Vector Machine',
-    #    'instance': SVMLearner()
-    #},
+    {
+        'name': 'Support Vector Machine',
+        'instance': SVMLearner()
+    },
     {
         'name': 'Multilayer Perceptron',
         'instance': MLPLearner()
@@ -25,10 +33,8 @@ models = [
 ]
 
 iris = datasets.load_iris()
-data = pd.DataFrame.from_csv("data/tmp/test.csv")
-# data = data.sample(frac=0.02)
-print(data.shape)
-data = data.sample(frac=.1)
+data = pd.DataFrame.from_csv(DATA_FILE)
+data = data.sample(frac=DATA_SAMPLE_PERC)
 targets = data["ideology"].values
 targets = np.rint(targets) # round to nearest integer, so we can classify
 # unique, counts = np.unique(targets, return_counts=True)
@@ -45,6 +51,7 @@ for model in models:
     print('------------------------------------------------')
     name = model['name']
     print('Model: %s' % (name))
+    print('Model Information: %s' % str(model["instance"]))
     print('Training...')
 
     start_time = time.clock()
@@ -61,6 +68,7 @@ for model in models:
     print('Accuracy: %s' % (accuracy))
 
 
+'''
 plt.bar(
     np.arange(len(models)),
     [model['mse'] for model in models],
@@ -68,5 +76,6 @@ plt.bar(
 plt.ylabel('MSE')
 plt.xlabel('Model Name')
 plt.show()
+'''
 
 # https://medium.com/@haydar_ai/learning-data-science-day-9-linear-regression-on-boston-housing-dataset-cd62a80775ef
