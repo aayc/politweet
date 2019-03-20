@@ -14,7 +14,12 @@ source env/bin/activate
 pip3 install -r requirements.txt
 cd data
 mkdir tmp # this directory is gitignored so that we don't keep committing data changes.
-python3 get-tweets.py
+```
+
+## Retrieving Data (large files)
+The following commands will produce (after a very long time) a set of raw tweet and other metadata.
+```
+python3 get-tweets.py 1 537 stable-datasets/congress.json OUTPUT_FILE_NAME.json ERROR_FILE_LOG.json
 ```
 
 ## Doc2Vec Wikipedia Model
@@ -27,7 +32,7 @@ You will need:
 * the congress.json information file (located in stable-datasets/, committed)
 * the doc2vec model (see under installation and setup)
 
-Run `python3 preprocess.py <tweets file, like stable-datasets/3-4-2019-0-537.json> <congress file, like stable-datasets/congress.json> <OUTPUT FILE NAME.json>`
+Run `python3 preprocess.py <tweets file, like stable-datasets/3-4-2019-0-537.json> <congress file, like stable-datasets/congress.json> <OUTPUT FILE NAME.csv>`
 
 # Authors
 Aaron Chan, Austin Kolander, Jonathan Dutson, Andrew Tate
