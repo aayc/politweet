@@ -5,6 +5,7 @@ import re
 import text_to_vector
 import pandas as pd
 import nltk
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from functools import reduce
 from nltk.corpus import stopwords
 nltk.download('stopwords')
@@ -18,6 +19,7 @@ TWEET_FILE_NAME = sys.argv[1]
 CONGRESS_FILE_NAME = sys.argv[2]
 OUTPUT_FILE_NAME = sys.argv[3]
 STOP_WORDS = set(stopwords.words('english'))
+SENTIMENT_ANALYZER = SentimentIntensityAnalyzer()
 print("LOADING DOC2VEC MODEL, this might take a minute...")
 text_to_vector.load_doc_model();
 
@@ -63,29 +65,22 @@ for twitter_handle in full_dataset.keys():
         words = [word.lower() for word in s.split(" ") if word not in STOP_WORDS and \
                                                           word not in string.punctuation and \
                                                           not word.isdigit()]
-        #print(words)
-
+        
+        # Add Doc2Vec features
         ls = text_to_vector.infer(s.split(" ")).tolist()
         for i in range(len(ls)):
             d["x" + str(i)] = ls[i]
         
-        d["x" + str(len(ls))] = tweet["favorite_count"]
         
+        ix = len(ls)
+        # Analyze Sentiment
+        sentiment = SENTIMENT_ANALYZER.polarity_scores(" ".join(words))
+        d["x" + str(ix)] = sentiment["pos"]
+        d["x" + str(ix + 1)] = sentiment["neg"]
+        d["x" + str(ix + 2)] = sentiment["neu"]
+        d["x" + str(ix + 3)] = tweet["favorite_count"]
         d["ideology"] = ideologies[twitter_handle]
         output.append(d)
-'''
-with open(OUTPUT_FILE_NAME, 'w') as f:
-    w = csv.DictWriter(f, output[0].keys())
-    w.writeheader()
-    w.writerows(output)
 
-'''
-'''
-print("Concatenating data frames together and putting out as csv (", len(output),"records )")
-dfs = [pd.DataFrame(output[x:x + 1000]) for x in range(0, len(output) - 1000, 1000)]
-print("dfs done: ", len(dfs))
-df = reduce(lambda x, y: pd.concat([x, y]), dfs, pd.DataFrame())
-print("reduced")
-'''
 df = pd.DataFrame(output)
 df.to_csv(OUTPUT_FILE_NAME)

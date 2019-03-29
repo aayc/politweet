@@ -25,7 +25,7 @@ models = [
     {
         'name': 'Support Vector Machine',
         'instance': SVMLearner(),
-        'params': []
+        'params': [{}]
     },
     {
         # Parameter options: hidden_layers, alpha, max_iters
@@ -51,8 +51,8 @@ targets = np.rint(targets) # round to nearest integer, so we can classify
 # counters = dict(zip(unique, counts))
 # print(counters)
 
-num_features = 301
-inputs = data[["x" + str(i) for i in range(301)]].values
+num_features = 304
+inputs = data[["x" + str(i) for i in range(num_features)]].values
 features, labels = StandardScaler().fit_transform(inputs), targets
 
 # Split into train and test features
@@ -65,18 +65,23 @@ for model in models:
     print('Model Information: %s' % str(model["instance"]))
     print('Training...')
 
-    start_time = time.clock()
-    model['instance'].fit(features_train, labels_train)
-    train_time = time.clock() - start_time
+    for hyperparams in model["params"]:
+        model["instance"].set_params(hyperparams)
+        print("\tParameters:", hyperparams)
 
-    print('Finished training in {0:.6f} seconds'.format(train_time))
+        start_time = time.clock()
+        model['instance'].fit(features_train, labels_train)
+        train_time = time.clock() - start_time
 
-    labels_pred = model['instance'].predict(features_test)
-    mse = sklearn.metrics.mean_squared_error(labels_test, labels_pred)
-    print('MSE: %s' % (mse))
-    model['mse'] = mse
-    accuracy = sklearn.metrics.accuracy_score(labels_test, labels_pred)
-    print('Accuracy: %s' % (accuracy))
+        print('\tFinished training in {0:.6f} seconds'.format(train_time))
+
+        labels_pred = model['instance'].predict(features_test)
+        mse = sklearn.metrics.mean_squared_error(labels_test, labels_pred)
+        print('\tMSE: %s' % (mse))
+        model['mse'] = mse
+        accuracy = sklearn.metrics.accuracy_score(labels_test, labels_pred)
+        print('\tAccuracy: %s' % (accuracy))
+        print("")
 
 
 # https://medium.com/@haydar_ai/learning-data-science-day-9-linear-regression-on-boston-housing-dataset-cd62a80775ef
