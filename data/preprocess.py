@@ -1,9 +1,11 @@
 import json
+import csv
 import sys
 import re
 import text_to_vector
 import pandas as pd
 import nltk
+from functools import reduce
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 import string
@@ -66,33 +68,24 @@ for twitter_handle in full_dataset.keys():
         ls = text_to_vector.infer(s.split(" ")).tolist()
         for i in range(len(ls)):
             d["x" + str(i)] = ls[i]
-
+        
+        d["x" + str(len(ls))] = tweet["favorite_count"]
+        
         d["ideology"] = ideologies[twitter_handle]
         output.append(d)
+'''
+with open(OUTPUT_FILE_NAME, 'w') as f:
+    w = csv.DictWriter(f, output[0].keys())
+    w.writeheader()
+    w.writerows(output)
 
-    '''
-    # OLD VERSION OF PREPROCESSING 
-    politician = {}
-    politician["twitter_handle"] = twitter_handle
-    politician["tweets"] = []
-    for tweet in full_dataset[twitter_handle]:
-        if not all([f in tweet for f in features]):
-            continue
-
-        # Clean up the tweets!
-        string = str(tweet["text"].replace("\u00a0\u2026", ""))  # weird tags at the end of tweets, not adding information.
-        url_pattern = '(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,}|pic\.[a-zA-Z0-9]+\.[^\s]{2,})'
-        string = re.sub(url_pattern, '', string)
-        # TODO: Remove hash tags by looking at hash tag param in text and remove #TheText + any punctuation?
-
-        tweet["text"] = string
-        tweet["vector"] = "hello"#text_to_vector.infer(string.split(" ")).tolist() # TODO remove stop words?
-        politician["tweets"].append([tweet[f] for f in features] + [tweet["vector"]])
-        politician["ideology"] = ideologies[twitter_handle]
-
-    output.append(politician)
-    '''
-
+'''
+'''
+print("Concatenating data frames together and putting out as csv (", len(output),"records )")
+dfs = [pd.DataFrame(output[x:x + 1000]) for x in range(0, len(output) - 1000, 1000)]
+print("dfs done: ", len(dfs))
+df = reduce(lambda x, y: pd.concat([x, y]), dfs, pd.DataFrame())
+print("reduced")
+'''
 df = pd.DataFrame(output)
 df.to_csv(OUTPUT_FILE_NAME)
-

@@ -24,11 +24,21 @@ from models.svm import SVMLearner
 models = [
     {
         'name': 'Support Vector Machine',
-        'instance': SVMLearner()
+        'instance': SVMLearner(),
+        'params': []
     },
     {
+        # Parameter options: hidden_layers, alpha, max_iters
         'name': 'Multilayer Perceptron',
-        'instance': MLPLearner()
+        'instance': MLPLearner(),
+        'params': [{
+            "hidden_layers": (50, 30, 20),
+            "alpha": 0.1
+        }, {
+            "hidden_layers": (300, 200, 100),
+            "alpha": 0.1,
+            "max_iters": 20000
+        }]
     }
 ]
 
@@ -41,7 +51,8 @@ targets = np.rint(targets) # round to nearest integer, so we can classify
 # counters = dict(zip(unique, counts))
 # print(counters)
 
-inputs = data[["x" + str(i) for i in range(300)]].values
+num_features = 301
+inputs = data[["x" + str(i) for i in range(301)]].values
 features, labels = StandardScaler().fit_transform(inputs), targets
 
 # Split into train and test features
@@ -67,15 +78,5 @@ for model in models:
     accuracy = sklearn.metrics.accuracy_score(labels_test, labels_pred)
     print('Accuracy: %s' % (accuracy))
 
-
-'''
-plt.bar(
-    np.arange(len(models)),
-    [model['mse'] for model in models],
-    tick_label=[model['name'] for model in models])
-plt.ylabel('MSE')
-plt.xlabel('Model Name')
-plt.show()
-'''
 
 # https://medium.com/@haydar_ai/learning-data-science-day-9-linear-regression-on-boston-housing-dataset-cd62a80775ef

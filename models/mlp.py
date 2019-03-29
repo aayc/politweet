@@ -6,10 +6,17 @@ class MLPLearner(Learner):
 
     def __init__ (self):
         self.HIDDEN_LAYERS = (100, 100, 100)
+        self.ALPHA = 1e-5
+        self.MAX_ITERS = 8000
 
     def fit(self, features, labels):
-        self.classifier = MLPClassifier(solver='sgd', alpha=1e-5, hidden_layer_sizes=self.HIDDEN_LAYERS, max_iter=8000)
+        self.classifier = MLPClassifier(solver='sgd', alpha=self.ALPHA, hidden_layer_sizes=self.HIDDEN_LAYERS, max_iter=self.MAX_ITERS)
         self.classifier.fit(features, labels)
+
+    def set_params (self, params):
+        self.HIDDEN_LAYERS = params.get("hidden_layers", self.HIDDEN_LAYERS)
+        self.ALPHA = params.get("alpha", self.ALPHA)
+        self.MAX_ITERS = params.get("max_iters", self.MAX_ITERS)
 
     def predict(self, features):
         return self.classifier.predict(features)
