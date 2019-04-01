@@ -8,5 +8,8 @@ class SVMLearner(Learner):
         self.classifier = svm.SVC()
         self.classifier.fit(features, labels)
 
+    def set_params (self, params):
+        pass
+
     def predict(self, features):
         return self.classifier.predict(features)

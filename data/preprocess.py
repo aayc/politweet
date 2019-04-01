@@ -1,9 +1,12 @@
 import json
+import csv
 import sys
 import re
 import text_to_vector
 import pandas as pd
 import nltk
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from functools import reduce
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 import string
@@ -16,6 +19,7 @@ TWEET_FILE_NAME = sys.argv[1]
 CONGRESS_FILE_NAME = sys.argv[2]
 OUTPUT_FILE_NAME = sys.argv[3]
 STOP_WORDS = set(stopwords.words('english'))
+SENTIMENT_ANALYZER = SentimentIntensityAnalyzer()
 print("LOADING DOC2VEC MODEL, this might take a minute...")
 text_to_vector.load_doc_model();
 
@@ -61,38 +65,22 @@ for twitter_handle in full_dataset.keys():
         words = [word.lower() for word in s.split(" ") if word not in STOP_WORDS and \
                                                           word not in string.punctuation and \
                                                           not word.isdigit()]
-        #print(words)
-
+        
+        # Add Doc2Vec features
         ls = text_to_vector.infer(s.split(" ")).tolist()
         for i in range(len(ls)):
             d["x" + str(i)] = ls[i]
-
+        
+        
+        ix = len(ls)
+        # Analyze Sentiment
+        sentiment = SENTIMENT_ANALYZER.polarity_scores(" ".join(words))
+        d["x" + str(ix)] = sentiment["pos"]
+        d["x" + str(ix + 1)] = sentiment["neg"]
+        d["x" + str(ix + 2)] = sentiment["neu"]
+        d["x" + str(ix + 3)] = tweet["favorite_count"]
         d["ideology"] = ideologies[twitter_handle]
         output.append(d)
 
-    '''
-    # OLD VERSION OF PREPROCESSING 
-    politician = {}
-    politician["twitter_handle"] = twitter_handle
-    politician["tweets"] = []
-    for tweet in full_dataset[twitter_handle]:
-        if not all([f in tweet for f in features]):
-            continue
-
-        # Clean up the tweets!
-        string = str(tweet["text"].replace("\u00a0\u2026", ""))  # weird tags at the end of tweets, not adding information.
-        url_pattern = '(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,}|pic\.[a-zA-Z0-9]+\.[^\s]{2,})'
-        string = re.sub(url_pattern, '', string)
-        # TODO: Remove hash tags by looking at hash tag param in text and remove #TheText + any punctuation?
-
-        tweet["text"] = string
-        tweet["vector"] = "hello"#text_to_vector.infer(string.split(" ")).tolist() # TODO remove stop words?
-        politician["tweets"].append([tweet[f] for f in features] + [tweet["vector"]])
-        politician["ideology"] = ideologies[twitter_handle]
-
-    output.append(politician)
-    '''
-
 df = pd.DataFrame(output)
 df.to_csv(OUTPUT_FILE_NAME)
-

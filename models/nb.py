@@ -8,5 +8,8 @@ class NaiveBayes(Learner):
         self.classifier = GaussianNB()
         self.classifier.fit(features, labels)
 
+    def set_params (self, params):
+        pass
+
     def predict(self, features):
         return self.classifier.predict(features)
