@@ -20,26 +20,34 @@ print("(to change this, usage: <data-file> <percentage e.g. 0.3, 0.5, or 1>")
 # Models
 from models.mlp import MLPLearner
 from models.svm import SVMLearner
+from models.kmeans import kMeansLearner
 
 models = [
+    {
+        'name': 'k-Means',
+        'instance': kMeansLearner(),
+        'params': [{
+            "k": 2
+        }]
+    },
     {
         'name': 'Support Vector Machine',
         'instance': SVMLearner(),
         'params': [{}]
-    },
-    {
-        # Parameter options: hidden_layers, alpha, max_iters
-        'name': 'Multilayer Perceptron',
-        'instance': MLPLearner(),
-        'params': [{
-            "hidden_layers": (50, 30, 20),
-            "alpha": 0.1
-        }, {
-            "hidden_layers": (300, 200, 100),
-            "alpha": 0.1,
-            "max_iters": 20000
-        }]
-    }
+    } 
+    # {
+    #     # Parameter options: hidden_layers, alpha, max_iters
+    #     'name': 'Multilayer Perceptron',
+    #     'instance': MLPLearner(),
+    #     'params': [{
+    #         "hidden_layers": (50, 30, 20),
+    #         "alpha": 0.1
+    #     }, {
+    #         "hidden_layers": (300, 200, 100),
+    #         "alpha": 0.1,
+    #         "max_iters": 20000
+    #     }]
+    # }
 ]
 
 iris = datasets.load_iris()
