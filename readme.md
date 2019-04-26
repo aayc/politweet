@@ -34,5 +34,8 @@ You will need:
 
 Run `python3 preprocess.py <tweets file, like stable-datasets/3-4-2019-0-537.json> <congress file, like stable-datasets/congress.json> <OUTPUT FILE NAME.csv>`
 
+# Results and Conclusion
+Due to the imbalanced dataset and the many tweets we had that were nonpolitical in nature, our results were mixed.  For political tweets, our model seemed to perform fairly accurately (although somewhat inconsistently).  Several factors including emojis, short-length tweets and mispelled words, etc., were confusing for our model.  Overall, we achieved a 79% accuracy with a baseline accuracy of 55% (due to our lopsided dataset) using a Support Vector Machine with an RBF kernel.  We were pretty happy with it.
+
 # Authors
 Aaron Chan, Austin Kolander, Jonathan Dutson, Andrew Tate
